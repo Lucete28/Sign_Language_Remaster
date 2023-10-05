@@ -7,11 +7,11 @@ def load_and_preprocess_data(folder_path, target_frame_count=90, image_size=(128
     labels = []
     data = []
 
-    for label, subfolder in enumerate(os.listdir(folder_path)):
+    for label, subfolder in enumerate(os.listdir(folder_path)): # data 폴더 확인
         subfolder_path = os.path.join(folder_path, subfolder)
         if os.path.isdir(subfolder_path):
-            for filename in os.listdir(subfolder_path):
-                if filename.endswith(".avi"):
+            for filename in os.listdir(subfolder_path):     # 하위 폴데 내용 확인
+                if filename.endswith(".avi"):       #.avi로 끝나는 파일 
                     video_path = os.path.join(subfolder_path, filename)
                     cap = cv2.VideoCapture(video_path)
                     frames = []
@@ -56,7 +56,7 @@ def load_and_preprocess_data(folder_path, target_frame_count=90, image_size=(128
 
     return train_data, test_data, train_labels, test_labels
 
-# 사용 예시
+# 사용 
 folder_path = r"C:\PlayData\sign_remaster\Sign_Language_Remaster\data"  # AVI 파일이 있는 폴더 경로 입력
 train_data, test_data, train_labels, test_labels = load_and_preprocess_data(folder_path)
 

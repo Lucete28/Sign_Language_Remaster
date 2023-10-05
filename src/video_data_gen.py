@@ -1,8 +1,8 @@
 import cv2
 import mediapipe as mp
 import numpy as np
-num = 0
-cap = cv2.VideoCapture(0)
+num = 10
+cap = cv2.VideoCapture(0)  
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5)
@@ -32,7 +32,7 @@ while cap.isOpened():
 
     cv2.imshow('Video', hand_landmarks_image)
 
-    # 녹화 시작
+    # 녹화 시작ds
     if cv2.waitKey(1) & 0xFF == ord('s'):
         recording = True
         out = cv2.VideoWriter(f'C:/PlayData/sign_remaster/Sign_Language_Remaster/data/bread_house/bread_house_{num}.avi', fourcc, 20.0, (frame.shape[1], frame.shape[0]))
