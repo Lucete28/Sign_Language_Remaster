@@ -3,8 +3,8 @@ import mediapipe as mp
 import numpy as np
 from tensorflow.keras.models import load_model
 
-# 모델 로드
-# model = load_model("your_model_path.h5")  # 모델 파일 경로를 입력하세요
+# 모델 파일 불러오기
+model = load_model(r'Sign_Language_Remaster\model\test10.h5')
 
 num = 0
 cap = cv2.VideoCapture(0)
