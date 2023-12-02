@@ -6,7 +6,7 @@ import os
 
 num = int(input('몇번 영상으로 저장할까요? :'))
 LABEL = 'lunch' 
-PATH = 'G:/내 드라이브/Sign_Remaster/Sign_Language_Remaster/data'
+# PATH = 'G:/내 드라이브/Sign_Remaster/Sign_Language_Remaster/data'
 PATH = 'C:/PlayData/sign_remaster/Sign_Language_Remaster/data'
 print(f'현재 파일은 {LABEL} 폴더로 저장됩니다.')
 cap = cv2.VideoCapture(0)  
