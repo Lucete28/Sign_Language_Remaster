@@ -11,7 +11,7 @@ actions = [
 ]
 seq_length = 30
 
-model = load_model('Sign_Language_Remaster\model\lstm_test1.h5')
+model = load_model('Sign_Language_Remaster\model\lstm_test5_e30_shF.h5')
 
 # MediaPipe hands model
 mp_hands = mp.solutions.hands
