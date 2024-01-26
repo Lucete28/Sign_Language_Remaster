@@ -78,10 +78,12 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
             print(type( json_response['response']['body']['items']['item']), json_response['response']['body']['items']['item'])
             item_li = json_response['response']['body']['items']['item']
             data_to_log = {}
+            data_to_log[todo_page] = dict()
             for item in item_li:
                 print(item['title'])
                 make_data(item['title'],item['subDescription'] )
                 data_to_log[todo_page][trans_to_english(item['title'])] = [item['title'],item['subDescription']]
+                write_json_log('api_log.json', data_to_log)
     
         else:
             print(f'요청이 실패했습니다. 응답 코드: {response.status_code}')

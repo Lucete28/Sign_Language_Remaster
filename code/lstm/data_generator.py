@@ -5,6 +5,8 @@ import numpy as np
 import time, os
 import random
 from googletrans import Translator
+from itertools import product
+
 
 def cut_first(text):
     t = text.split(',')[0]
@@ -17,8 +19,6 @@ def trans_to_english(text):
     return result.text
 ##############################
 def make_data(act, v_path):
-
-
     def rotate_image(image, angle, size = 1):
         height, width = image.shape[:2]
         center = (width // 2, height // 2)
@@ -48,13 +48,17 @@ def make_data(act, v_path):
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-    rotate_li = [0, 10, -10, 15, -15]
-    speed_li = [1, 2, 3, 4, 5]
+    rotate_li = [0, 5, -5, 10, -10]
+    speed_li = [1, 3, 5]
     size_li = [1, 1.25, 1.5]
-    random.shuffle(rotate_li) 
-    random.shuffle(speed_li) 
-    random.shuffle(size_li) 
 
+    # random.shuffle(rotate_li) 
+    # random.shuffle(speed_li) 
+    # random.shuffle(size_li) 
+
+
+    gen_param = list(product(rotate_li, speed_li, size_li))
+    random.shuffle(gen_param)
     ###############################
 
     # MediaPipe hands model
@@ -67,65 +71,63 @@ def make_data(act, v_path):
 
     data = []
     repeat = 1
-    for repeat_rot in range(len(rotate_li)):
-        rotate = rotate_li[repeat_rot]
-        for repeat_sp in range(len(speed_li)):
-            speed = speed_li[repeat_sp]
-            for repeat_si in range(len(size_li)):
-                size = size_li[repeat_si]
-                print(repeat,'번째 실행입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
-                repeat +=1 
+
+    for g_param in gen_param:
+        rotate, speed, size = g_param[0], g_param[1],g_param[2]
+        print(repeat,'번째 실행입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
+        repeat +=1 
+
+        while True:
+            ret, img = cap.read()
+            if not ret: # 영상끝나면 종료
+                break
+            img = rotate_image(img, rotate, size)
+            
+            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+            result = hands.process(img)
+            img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+
+            if result.multi_hand_landmarks is not None:
+                da = [] 
+                if len(result.multi_hand_landmarks) == 2 or len(result.multi_hand_landmarks) == 1:
+                    d = []
+                    for res in result.multi_hand_landmarks:  # res 잡힌 만큼 (max 손 개수 이하)
+                        mp_drawing.draw_landmarks(img, res, mp_hands.HAND_CONNECTIONS)
+                        joint = np.zeros((21, 3))
+                        for j, lm in enumerate(res.landmark):
+                            joint[j] = [lm.x, lm.y, lm.z]
+
+                        # Compute angles between joints
+                        v1 = joint[[0,1,2,3,0,5,6,7,0,9,10,11,0,13,14,15,0,17,18,19], :3] # Parent joint
+                        v2 = joint[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], :3] # Child joint
+                        v = v2 - v1 # [20, 3]
+                        # Normalize v
+                        v = v / np.linalg.norm(v, axis=1)[:, np.newaxis]
+
+                        # Get angle using arcos of dot product
+                        angle = np.arccos(np.einsum('nt,nt->n',
+                            v[[0,1,2,4,5,6,8,9,10,12,13,14,16,17,18],:], 
+                            v[[1,2,3,5,6,7,9,10,11,13,14,15,17,18,19],:])) # [15,]\
+
+                        angle = np.degrees(angle) # Convert radian to degree
+                        angle = np.array([angle], dtype=np.float32)
+                        d.append(np.concatenate([joint.flatten(),angle.flatten()]))
+                        if len(result.multi_hand_landmarks)==1:
+                            d.append(np.zeros_like(d[0]))
+                    da.append([np.concatenate(d)])
+                    data.append(np.concatenate(da))        
+
+
+            cv2.imshow('img', img)
+            if cv2.waitKey(int(30 / speed)) & 0xFF == ord('q'): # 속도조절
+                break
+                # pass
+            # 동영상 속도에 따라 프레임 위치 설정
+            frame_index = int(cap.get(cv2.CAP_PROP_POS_FRAMES)) + speed
+            cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
         
-                while True:
-                    ret, img = cap.read()
-                    if not ret: # 영상끝나면 종료
-                        break
-                    img = rotate_image(img, rotate, size)
-                    
-                    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-                    result = hands.process(img)
-                    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
-
-                    if result.multi_hand_landmarks is not None:
-                        da = [] 
-                        if len(result.multi_hand_landmarks) == 2 or len(result.multi_hand_landmarks) == 1:
-                            d = []
-                            for res in result.multi_hand_landmarks:  # res 잡힌 만큼 (max 손 개수 이하)
-                                mp_drawing.draw_landmarks(img, res, mp_hands.HAND_CONNECTIONS)
-                                joint = np.zeros((21, 3))
-                                for j, lm in enumerate(res.landmark):
-                                    joint[j] = [lm.x, lm.y, lm.z]
-
-                                # Compute angles between joints
-                                v1 = joint[[0,1,2,3,0,5,6,7,0,9,10,11,0,13,14,15,0,17,18,19], :3] # Parent joint
-                                v2 = joint[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], :3] # Child joint
-                                v = v2 - v1 # [20, 3]
-                                # Normalize v
-                                v = v / np.linalg.norm(v, axis=1)[:, np.newaxis]
-
-                                # Get angle using arcos of dot product
-                                angle = np.arccos(np.einsum('nt,nt->n',
-                                    v[[0,1,2,4,5,6,8,9,10,12,13,14,16,17,18],:], 
-                                    v[[1,2,3,5,6,7,9,10,11,13,14,15,17,18,19],:])) # [15,]\
-
-                                angle = np.degrees(angle) # Convert radian to degree
-                                angle = np.array([angle], dtype=np.float32)
-                                d.append(np.concatenate([joint.flatten(),angle.flatten()]))
-                                if len(result.multi_hand_landmarks)==1:
-                                    d.append(np.zeros_like(d[0]))
-                            da.append([np.concatenate(d)])
-                            data.append(np.concatenate(da))        
-
-
-                    cv2.imshow('img', img)
-                    if cv2.waitKey(int(30 / speed)) & 0xFF == ord('q'): # 속도조절
-                        break
-                    # 동영상 속도에 따라 프레임 위치 설정
-                    frame_index = int(cap.get(cv2.CAP_PROP_POS_FRAMES)) + speed
-                    cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
-                
-                # 동영상 다시재생
-                cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
+        # 동영상 다시재생
+        cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
         
         
         
