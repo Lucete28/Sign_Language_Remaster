@@ -47,7 +47,7 @@ def write_json_log(J_PATH, data):
 
 
 
-def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반환
+def get_response(P=300): #    해야하는 페이지 받아서 return item_li 반환
     print(P)
 
     for _ in range(P):
@@ -80,8 +80,8 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
             item_li = json_response['response']['body']['items']['item']
             data_to_log = j_data
             data_to_log[subject][todo_page] = dict()
-            for item in item_li:
-                print(item['title'])
+            for i, item in enumerate(item_li):
+                print(item['title'], f'Page {todo_page} in No.{i}')
                 make_data(item['title'],item['subDescription'] )
                 data_to_log[subject][todo_page][trans_to_english(item['title'])] = [item['title'],item['subDescription']]
                 write_json_log('api_log.json', data_to_log)

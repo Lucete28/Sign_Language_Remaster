@@ -18,7 +18,7 @@ def trans_to_english(text):
     result = translator.translate(text, src='ko', dest='en')
     return result.text
 ##############################
-def make_data(act, v_path):
+def make_data(act_ko, v_path):
     def rotate_image(image, angle, size = 1):
         height, width = image.shape[:2]
         center = (width // 2, height // 2)
@@ -29,7 +29,7 @@ def make_data(act, v_path):
     #변수
     VIDEO_PATH = v_path
 
-    ACTION = trans_to_english(act) # cv2 출력 문제로 영어로 변경
+    ACTION = trans_to_english(act_ko) # cv2 출력 문제로 영어로 변경
     seq_length = 30
     created_time = int(time.time())
     print('created at :',created_time)
@@ -49,7 +49,7 @@ def make_data(act, v_path):
     # height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     rotate_li = [0, 5, -5, 10, -10]
-    speed_li = [1, 2, 3]
+    speed_li = [1, 3, 5]
     size_li = [1, 1.25, 1.5]
 
     gen_param = list(product(rotate_li, speed_li, size_li))
@@ -69,7 +69,7 @@ def make_data(act, v_path):
 
     for g_param in gen_param:
         rotate, speed, size = g_param[0], g_param[1],g_param[2]
-        print(ACTION,repeat,'번째 반복입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
+        print(ACTION,',',act_ko,repeat,'번째 반복입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
         repeat +=1 
         frame_index = 1
         while True:
