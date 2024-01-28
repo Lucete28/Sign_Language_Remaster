@@ -43,19 +43,14 @@ def make_data(act, v_path):
         print("Error: Could not open video file.")
         exit()
 
-    # 동영상의 프레임 수와 크기 가져오기
-    fps = int(cap.get(cv2.CAP_PROP_FPS))
-    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    # # 동영상의 프레임 수와 크기 
+    # fps = int(cap.get(cv2.CAP_PROP_FPS))
+    # width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    # height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     rotate_li = [0, 5, -5, 10, -10]
     speed_li = [1, 3, 5]
     size_li = [1, 1.25, 1.5]
-
-    # random.shuffle(rotate_li) 
-    # random.shuffle(speed_li) 
-    # random.shuffle(size_li) 
-
 
     gen_param = list(product(rotate_li, speed_li, size_li))
     random.shuffle(gen_param)
@@ -119,7 +114,7 @@ def make_data(act, v_path):
 
 
             cv2.imshow('img', img)
-            if cv2.waitKey(int(1 / speed)) & 0xFF == ord('q'): # 속도조절
+            if cv2.waitKey(int(30 / speed)) & 0xFF == ord('q'): # 속도조절 (delay 는 int 여야함 0이면 오류가능)
                 break
                 # pass
             # 동영상 속도에 따라 프레임 위치 설정
@@ -148,6 +143,7 @@ def make_data(act, v_path):
         np.save(os.path.join(f'dataset/{ACTION}', f'raw_{created_time}'), data)
         np.save(os.path.join(f'dataset/{ACTION}', f'seq_{created_time}_{full_seq_data.shape[0]}'), full_seq_data)
         print(ACTION,'saved', full_seq_data.shape, data.shape)
+    cap.release()
     cv2.destroyAllWindows()
 
     # 비정상 폴더 삭제 (빈폴더)

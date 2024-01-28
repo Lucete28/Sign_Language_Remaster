@@ -83,7 +83,7 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
             for item in item_li:
                 print(item['title'])
                 make_data(item['title'],item['subDescription'] )
-                data_to_log[todo_page][trans_to_english(item['title'])] = [item['title'],item['subDescription']]
+                data_to_log[subject][todo_page][trans_to_english(item['title'])] = [item['title'],item['subDescription']]
                 write_json_log('api_log.json', data_to_log)
     
         else:
