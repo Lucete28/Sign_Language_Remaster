@@ -26,7 +26,7 @@ def page_todo(file_path, key):
             return 1
     else: # 키 있으면 해당키의 최근 페이지 반환
         if data[key]:
-            return max(data[key]) +1 # 있으면 다음페이지 반환
+            return max(int(k) for k in data[key].keys()) +1 , data     # 있으면 다음페이지랑 data 반환
         else:
             return 1
         
@@ -51,7 +51,8 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
     print(P)
 
     for _ in range(P):
-        todo_page = page_todo('api_log.json', 'Daily')
+        subject = 'Daily'
+        todo_page, j_data = page_todo('api_log.json', subject)
 
         url = 'http://api.kcisa.kr/openapi/service/rest/meta13/getCTE01701'
         params = {
@@ -77,8 +78,8 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
             print('응답 내용:', json_response)
             print(type( json_response['response']['body']['items']['item']), json_response['response']['body']['items']['item'])
             item_li = json_response['response']['body']['items']['item']
-            data_to_log = {}
-            data_to_log[todo_page] = dict()
+            data_to_log = j_data
+            data_to_log[subject][todo_page] = dict()
             for item in item_li:
                 print(item['title'])
                 make_data(item['title'],item['subDescription'] )
