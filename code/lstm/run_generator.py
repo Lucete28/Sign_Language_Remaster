@@ -41,7 +41,7 @@ def write_txt_log(T_path, text):
 def write_json_log(J_PATH, data):
     with open(J_PATH, 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
-        
+    
 #####################################################################################################
         
 
@@ -98,8 +98,18 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
 import sys
 
 if __name__ == "__main__":
+    file_start_time = datetime.datetime.now()
+    
+
+    # 결과 출력
+    
     if len(sys.argv)==2:
         get_response(int(sys.argv[1]))
     else:
         get_response()
+    file_end_time = datetime.datetime.now()
+    elapsed_time = file_end_time - file_start_time
+    print(f"시작 시간: {file_start_time}")
+    print(f"끝난 시간: {file_end_time}")
+    print(f"걸린 시간: {elapsed_time}") 
 
