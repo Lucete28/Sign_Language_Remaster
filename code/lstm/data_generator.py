@@ -71,55 +71,62 @@ def make_data(act, v_path):
         rotate, speed, size = g_param[0], g_param[1],g_param[2]
         print(ACTION,repeat,'번째 반복입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
         repeat +=1 
-
+        frame_index = 1
         while True:
             ret, img = cap.read()
             if not ret: # 영상끝나면 종료
                 break
-            img = rotate_image(img, rotate, size)
-            
-            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-            result = hands.process(img)
-            img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
 
-            if result.multi_hand_landmarks is not None:
-                da = [] 
-                if len(result.multi_hand_landmarks) == 2 or len(result.multi_hand_landmarks) == 1:
-                    d = []
-                    for res in result.multi_hand_landmarks:  # res 잡힌 만큼 (max 손 개수 이하)
-                        mp_drawing.draw_landmarks(img, res, mp_hands.HAND_CONNECTIONS)
-                        joint = np.zeros((21, 3))
-                        for j, lm in enumerate(res.landmark):
-                            joint[j] = [lm.x, lm.y, lm.z]
+            if frame_index % speed != 0:
+                frame_index+=1
+            else:  ### speed 조정
+                frame_index+=1
+                
+                img = rotate_image(img, rotate, size)
+                
+                img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+                result = hands.process(img)
+                img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
 
-                        # Compute angles between joints
-                        v1 = joint[[0,1,2,3,0,5,6,7,0,9,10,11,0,13,14,15,0,17,18,19], :3] # Parent joint
-                        v2 = joint[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], :3] # Child joint
-                        v = v2 - v1 # [20, 3]
-                        # Normalize v
-                        v = v / np.linalg.norm(v, axis=1)[:, np.newaxis]
+                if result.multi_hand_landmarks is not None:
+                    da = [] 
+                    if len(result.multi_hand_landmarks) == 2 or len(result.multi_hand_landmarks) == 1:
+                        d = []
+                        for res in result.multi_hand_landmarks:  # res 잡힌 만큼 (max 손 개수 이하)
+                            mp_drawing.draw_landmarks(img, res, mp_hands.HAND_CONNECTIONS)
+                            joint = np.zeros((21, 3))
+                            for j, lm in enumerate(res.landmark):
+                                joint[j] = [lm.x, lm.y, lm.z]
 
-                        # Get angle using arcos of dot product
-                        angle = np.arccos(np.einsum('nt,nt->n',
-                            v[[0,1,2,4,5,6,8,9,10,12,13,14,16,17,18],:], 
-                            v[[1,2,3,5,6,7,9,10,11,13,14,15,17,18,19],:])) # [15,]\
+                            # Compute angles between joints
+                            v1 = joint[[0,1,2,3,0,5,6,7,0,9,10,11,0,13,14,15,0,17,18,19], :3] # Parent joint
+                            v2 = joint[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], :3] # Child joint
+                            v = v2 - v1 # [20, 3]
+                            # Normalize v
+                            v = v / np.linalg.norm(v, axis=1)[:, np.newaxis]
 
-                        angle = np.degrees(angle) # Convert radian to degree
-                        angle = np.array([angle], dtype=np.float32)
-                        d.append(np.concatenate([joint.flatten(),angle.flatten()]))
-                        if len(result.multi_hand_landmarks)==1:
-                            d.append(np.zeros_like(d[0]))
-                    da.append([np.concatenate(d)])
-                    data.append(np.concatenate(da))        
+                            # Get angle using arcos of dot product
+                            angle = np.arccos(np.einsum('nt,nt->n',
+                                v[[0,1,2,4,5,6,8,9,10,12,13,14,16,17,18],:], 
+                                v[[1,2,3,5,6,7,9,10,11,13,14,15,17,18,19],:])) # [15,]\
+
+                            angle = np.degrees(angle) # Convert radian to degree
+                            angle = np.array([angle], dtype=np.float32)
+                            d.append(np.concatenate([joint.flatten(),angle.flatten()]))
+                            if len(result.multi_hand_landmarks)==1:
+                                d.append(np.zeros_like(d[0]))
+                        da.append([np.concatenate(d)])
+                        data.append(np.concatenate(da))        
 
 
-            cv2.imshow('img', img)
-            if cv2.waitKey(int(1 * speed)) & 0xFF == ord('q'): # 속도조절 (delay 는 int 여야함 0이면 오류가능)
+                cv2.imshow('img', img)
+            # if cv2.waitKey(int(1 * speed)) & 0xFF == ord('q'): # 속도조절 (delay 는 int 여야함 0이면 오류가능)
+            if cv2.waitKey(1) & 0xFF == ord('q'): # 속도조절 (delay 는 int 여야함 0이면 오류가능)
                 break
                 # pass
-            # 동영상 속도에 따라 프레임 위치 설정
-            frame_index = int(cap.get(cv2.CAP_PROP_POS_FRAMES)) + speed
-            cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
+            # # 동영상 속도에 따라 프레임 위치 설정
+            # frame_index = int(cap.get(cv2.CAP_PROP_POS_FRAMES)) + speed
+            # cap.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
         
         # 동영상 다시재생
         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
@@ -150,3 +157,5 @@ def make_data(act, v_path):
     if os.path.exists(f'dataset/{ACTION}') and not os.listdir(f'dataset/{ACTION}'):
         os.rmdir(f'dataset/{ACTION}')  
         print(f"{f'dataset/{ACTION}'} 빈폴더 삭제")
+
+print("This file is Data_generator.py \nThis file only have Function.\nPlease run ### run_generator.py ### file")
