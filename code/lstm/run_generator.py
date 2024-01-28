@@ -4,7 +4,7 @@ import json
 from data_generator import trans_to_english
 from datetime import datetime
 from data_generator import *
-
+# import datetime
 #####################################################################################################
 
 def page_todo(file_path, key):
@@ -98,8 +98,7 @@ def get_response(P=1): #    해야하는 페이지 받아서 return item_li 반�
 import sys
 
 if __name__ == "__main__":
-    file_start_time = datetime.datetime.now()
-    
+    file_start_time = datetime.now()
 
     # 결과 출력
     
@@ -107,7 +106,7 @@ if __name__ == "__main__":
         get_response(int(sys.argv[1]))
     else:
         get_response()
-    file_end_time = datetime.datetime.now()
+    file_end_time = datetime.now()
     elapsed_time = file_end_time - file_start_time
     print(f"시작 시간: {file_start_time}")
     print(f"끝난 시간: {file_end_time}")
