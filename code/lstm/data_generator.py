@@ -49,7 +49,7 @@ def make_data(act, v_path):
     # height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     rotate_li = [0, 5, -5, 10, -10]
-    speed_li = [1, 3, 5]
+    speed_li = [1, 2, 3]
     size_li = [1, 1.25, 1.5]
 
     gen_param = list(product(rotate_li, speed_li, size_li))
@@ -69,7 +69,7 @@ def make_data(act, v_path):
 
     for g_param in gen_param:
         rotate, speed, size = g_param[0], g_param[1],g_param[2]
-        print(ACTION,repeat,'번째 실행입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
+        print(ACTION,repeat,'번째 반복입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
         repeat +=1 
 
         while True:
@@ -114,7 +114,7 @@ def make_data(act, v_path):
 
 
             cv2.imshow('img', img)
-            if cv2.waitKey(int(30 / speed)) & 0xFF == ord('q'): # 속도조절 (delay 는 int 여야함 0이면 오류가능)
+            if cv2.waitKey(int(1 * speed)) & 0xFF == ord('q'): # 속도조절 (delay 는 int 여야함 0이면 오류가능)
                 break
                 # pass
             # 동영상 속도에 따라 프레임 위치 설정
