@@ -35,7 +35,7 @@ def write_txt_log(T_path, text):
     current_time = datetime.now()
     formatted_time = current_time.strftime('%Y-%m-%d %H:%M:%S')
 
-    with open(T_path, 'w') as file:
+    with open(T_path, 'a', encoding='utf-8') as file:
         file.write(f"{formatted_time} ::: {text}\n")
 
 def write_json_log(J_PATH, data):
