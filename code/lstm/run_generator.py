@@ -75,16 +75,20 @@ def get_response(P=300): #    해야하는 페이지 받아서 return item_li �
             xml_dict = xmltodict.parse(response.text, encoding=encoding)
             json_response = json.dumps(xml_dict, ensure_ascii=False, indent=2)
             json_response = json.loads(json_response)
-            print('응답 내용:', json_response)
-            print(type( json_response['response']['body']['items']['item']), json_response['response']['body']['items']['item'])
+            # print('응답 내용:', json_response)
+            # print(type( json_response['response']['body']['items']['item']), json_response['response']['body']['items']['item'])
             item_li = json_response['response']['body']['items']['item']
             data_to_log = j_data
             data_to_log[subject][todo_page] = dict()
             for i, item in enumerate(item_li):
-                print(item['title'], f'Page {todo_page} in No.{i}')
+                item_start_time = datetime.now()
+                print(item['title'], f'No.{i +1} in Page {todo_page}')
                 make_data(item['title'],item['subDescription'] )
+                item_end_time = datetime.now()
+                write_txt_log('LOG.TXT', f'\t{item["title"]} 작성완료 (걸린시간 {item_end_time - item_start_time})')
                 data_to_log[subject][todo_page][trans_to_english(item['title'])] = [item['title'],item['subDescription']]
                 write_json_log('api_log.json', data_to_log)
+            write_txt_log('LOG.TXT', f'Page {todo_page} 작성 완료')
     
         else:
             print(f'요청이 실패했습니다. 응답 코드: {response.status_code}')
@@ -99,8 +103,6 @@ import sys
 
 if __name__ == "__main__":
     file_start_time = datetime.now()
-
-    # 결과 출력
     
     if len(sys.argv)==2:
         get_response(int(sys.argv[1]))
@@ -108,7 +110,7 @@ if __name__ == "__main__":
         get_response()
     file_end_time = datetime.now()
     elapsed_time = file_end_time - file_start_time
-    print(f"시작 시간: {file_start_time}")
-    print(f"끝난 시간: {file_end_time}")
-    print(f"걸린 시간: {elapsed_time}") 
+    print(f"Generator 시작 시간: {file_start_time}")
+    print(f"Generator 끝난 시간: {file_end_time}")
+    print(f"Generator 걸린 시간: {elapsed_time}") 
 

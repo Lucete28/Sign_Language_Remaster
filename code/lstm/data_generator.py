@@ -69,7 +69,7 @@ def make_data(act_ko, v_path):
 
     for g_param in gen_param:
         rotate, speed, size = g_param[0], g_param[1],g_param[2]
-        print(ACTION,',',act_ko,repeat,'번째 반복입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
+        print(f'{ACTION}, ({act_ko}), {repeat}번째 반복입니다.', f'speed : {speed}, rotated : {rotate}, size : {size}')
         repeat +=1 
         frame_index = 1
         while True:
