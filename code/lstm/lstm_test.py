@@ -5,14 +5,14 @@ from tensorflow.keras.models import load_model
 import os
 
 # dataset 폴더 경로 설정
-dataset_folder = '/content/drive/MyDrive/LAB/Sign_Language_Remaster/code/lstm/dataset'
+# dataset_folder = '/content/drive/MyDrive/LAB/Sign_Language_Remaster/code/lstm/dataset'
 
 # dataset 폴더 아래의 모든 폴더 목록을 얻기
-actions = ['chewing gum', 'Fat', 'Final exam', 'hide', 'lie', 'Octopus', 'Stickiness', 'To Wipe', 'wayfarer', 'wig']
+actions = ['(Shooting gun)', '-jean', 'Acacia flower', 'alcohol', 'Anatomy', 'Anniversary', 'army unit', 'attache', 'Be persistent', 'bone', 'bribe', 'Celadon', 'Central office', 'chewing gum', 'Come across', 'confrontation', 'copy machine', 'Defender', 'describe', 'during', 'engine', 'entrust', 'far', 'Federation', 'Final exam', 'fire extinguisher', 'Football field', 'Gold', 'Han River', 'hide', 'hold out', 'Hole', 'hot', 'House price', 'ignorance', 'Indifference', 'Insert', 'Installment', 'Kalguksu', 'keep', 'law', 'Laziness', 'let go', 'lie', 'like', 'limp', 'lyrics', 'manicure', 'Mate', 'Material', 'meeting', 'Money', 'Monthly', 'My week', 'Navy', 'oblivion', 'Octopus', 'One hundred', 'one room', 'Outstream', 'persimmon', 'Photographer', 'Placebo', 'pot', 'Poverty', 'power plant', 'pregnancy', 'real', 'report', 'safe', 'school', 'see', 'seizure', 'Seokdu', 'Seventh', 'seventy', 'Sgt', 'shave', 'shed', 'Small trial', 'South Sea', 'spin', 'Stickiness', 'struggle', 'tie', 'To Wipe', 'Train station', 'Unlimited', 'victim', 'vietnam', 'Village', 'vinyl', 'wayfarer', 'weeping', 'widow', 'wig']
 
 seq_length = 30
 
-model = load_model(r"C:\PlayData\lstm_test21_10_e50.h5")
+model = load_model(r"C:\PlayData\lstm_test30_96act_e50.h5")
 
 
 # MediaPipe hands model
@@ -80,13 +80,14 @@ while cap.isOpened():
             continue
 
         input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float32), axis=0)
-        # print('#####33',input_data.shape)
         y_pred = model.predict(input_data).squeeze()
-
         i_pred = int(np.argmax(y_pred))
+        top5_classes = np.argsort(y_pred)[::-1][:5]
+        for i, class_idx in enumerate(top5_classes):
+            print(f"상위 {i+1} 클래스: {class_idx}({actions[class_idx]}), 확률: {y_pred[class_idx]}")
         conf = y_pred[i_pred]
 
-        if conf < 0.6:
+        if conf < 0.8:
             continue
 
         action = actions[i_pred]
