@@ -49,10 +49,11 @@ def write_json_log(J_PATH, data):
 
 def get_response(P=300): #    해야하는 페이지 받아서 return item_li 반환
     print(P)
-
+    TXT_LOG_PATH = r'C:\Users\oem\Desktop\jhy\signlanguage\Sign_Language_Remaster\logs\LOG.TXT'
+    JSON_LOG_PATH = r'C:\Users\oem\Desktop\jhy\signlanguage\Sign_Language_Remaster\logs\api_log.json'
     for _ in range(P):
         subject = 'Daily'
-        todo_page, j_data = page_todo('api_log.json', subject)
+        todo_page, j_data = page_todo(JSON_LOG_PATH, subject)
 
         url = 'http://api.kcisa.kr/openapi/service/rest/meta13/getCTE01701'
         params = {
@@ -64,7 +65,7 @@ def get_response(P=300): #    해야하는 페이지 받아서 return item_li �
 
         if response.status_code == 200:
             print('요청 성공')
-            write_txt_log('LOG.TXT', f'Page {todo_page} api 요청 성공')
+            write_txt_log(TXT_LOG_PATH, f'Page {todo_page} api 요청 성공')
             page_start_time = datetime.now()
             content_type = response.headers.get('Content-Type')
             if content_type and 'charset' in content_type:
@@ -85,15 +86,15 @@ def get_response(P=300): #    해야하는 페이지 받아서 return item_li �
                 print(item['title'], f'No.{i +1} in Page {todo_page}')
                 make_data(item['title'],item['subDescription'] )
                 item_end_time = datetime.now()
-                write_txt_log('LOG.TXT', f'\t{i+1}. {item["title"]} 작성완료 (걸린시간 {item_end_time - item_start_time})')
+                write_txt_log(TXT_LOG_PATH, f'\t{i+1}. {item["title"]} 작성완료 (걸린시간 {item_end_time - item_start_time})')
                 data_to_log[subject][todo_page][trans_to_english(item['title'])] = [item['title'],item['subDescription']]
-                write_json_log('api_log.json', data_to_log)
+                write_json_log(JSON_LOG_PATH, data_to_log)
             page_end_time = datetime.now()
-            write_txt_log('LOG.TXT', f'Page {todo_page} 작성 완료 (페이지 완료까지 걸린시간 {page_start_time - page_end_time})')
+            write_txt_log(TXT_LOG_PATH, f'Page {todo_page} 작성 완료 (페이지 완료까지 걸린시간 {page_end_time - page_start_time})')
     
         else:
             print(f'요청이 실패했습니다. 응답 코드: {response.status_code}')
-            write_txt_log('LOG.TXT', f'Page {todo_page} api 요청 실패\n 응답 코드: {response.status_code}')
+            write_txt_log(TXT_LOG_PATH, f'Page {todo_page} api 요청 실패\n 응답 코드: {response.status_code}')
             break
 
 
