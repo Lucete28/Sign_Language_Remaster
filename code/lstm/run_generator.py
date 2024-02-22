@@ -6,7 +6,7 @@ from datetime import datetime
 from data_generator import *
 # import datetime
 #####################################################################################################
-# asdf
+
 def page_todo(file_path, key):
     try:
         with open(file_path, 'r', encoding='utf-8') as json_file:
@@ -98,7 +98,7 @@ def get_response(P=50): #    해야하는 페이지 받아서 return item_li 반
             break
 
 
-## control lfs
+
 
 
 import sys

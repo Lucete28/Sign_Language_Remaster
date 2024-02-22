@@ -3,7 +3,7 @@ import mediapipe as mp
 import numpy as np
 from tensorflow.keras.models import load_model
 import os
-#sasdf
+
 # dataset 폴더 경로 설정
 # dataset_folder = '/content/drive/MyDrive/LAB/Sign_Language_Remaster/code/lstm/dataset'
 
