@@ -7,10 +7,6 @@
             ]
         },
         "3": {
-            "limp": [
-                "절름발이",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009573/MOV000359927_700X466.mp4"
-            ],
             "Seventh": [
                 "칠순,고희",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009575/MOV000359929_700X466.mp4"
@@ -46,6 +42,10 @@
             "pot": [
                 "냄비",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627263/MOV000251982_700X466.mp4"
+            ],
+            "limp_in3": [
+                "절름발이",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009573/MOV000359927_700X466.mp4"
             ]
         },
         "4": {
@@ -409,13 +409,13 @@
                 "번민",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220729/1003314/MOV000359612_700X466.mp4"
             ],
-            "Rule": [
-                "괘씸하다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785430/MOV000357086_700X466.mp4"
-            ],
             "Pope": [
                 "교황",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1039892/MOV000360441_700X466.mp4"
+            ],
+            "Rule_in12": [
+                "괘씸하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785430/MOV000357086_700X466.mp4"
             ]
         },
         "13": {
@@ -1007,10 +1007,6 @@
             ]
         },
         "27": {
-            "Public": [
-                "공중,민간,서민,일반인",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221101/1047212/MOV000361173_700X466.mp4"
-            ],
             "Go down": [
                 "이어 내리다,전통,내려오다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735495/MOV000239691_700X466.mp4"
@@ -1046,6 +1042,10 @@
             "owner": [
                 "소유자,소유주",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221021/1043076/MOV000361056_700X466.mp4"
+            ],
+            "Public_in27": [
+                "공중,민간,서민,일반인",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221101/1047212/MOV000361173_700X466.mp4"
             ]
         },
         "28": {
@@ -1287,10 +1287,6 @@
                 "수병,해병",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220812/1010100/MOV000360089_700X466.mp4"
             ],
-            "Defender": [
-                "수비군,수비부대",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220812/1010101/MOV000360090_700X466.mp4"
-            ],
             "Killer": [
                 "살인범,살해범",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733093/MOV000246894_700X466.mp4"
@@ -1298,6 +1294,10 @@
             "Shrink": [
                 "수축",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735614/MOV000245952_700X466.mp4"
+            ],
+            "Defender_in33": [
+                "수비군,수비부대",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220812/1010101/MOV000360090_700X466.mp4"
             ]
         },
         "34": {
@@ -1347,10 +1347,6 @@
                 "디지털",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001921/MOV000359498_700X466.mp4"
             ],
-            "shed": [
-                "광,광선,라이트,빛,조명,비추다,비치다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201023/764368/MOV000240719_700X466.mp4"
-            ],
             "Remove": [
                 "빼버리다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735500/MOV000245496_700X466.mp4"
@@ -1382,6 +1378,10 @@
             "I can't do it": [
                 "하릴없다,어쩔 수 없다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200813/728928/MOV000246766_700X466.mp4"
+            ],
+            "shed_in35": [
+                "광,광선,라이트,빛,조명,비추다,비치다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201023/764368/MOV000240719_700X466.mp4"
             ]
         },
         "36": {
@@ -1523,10 +1523,6 @@
                 "구약",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221019/1042477/MOV000360996_700X466.mp4"
             ],
-            "Job": [
-                "구인",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004831/MOV000359720_700X466.mp4"
-            ],
             "Ward office": [
                 "구청",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/734845/MOV000250271_700X466.mp4"
@@ -1550,6 +1546,10 @@
             "walnut": [
                 "호두",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733695/MOV000237665_700X466.mp4"
+            ],
+            "Job_in39": [
+                "구인",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004831/MOV000359720_700X466.mp4"
             ]
         },
         "40": {
@@ -1753,13 +1753,13 @@
                 "내복,내의,속옷",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631987/MOV000251862_700X466.mp4"
             ],
-            "Poverty": [
-                "농",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004802/MOV000359714_700X466.mp4"
-            ],
             "pour": [
                 "붓다,부풀다,부풀리다,부어있다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735177/MOV000252955_700X466.mp4"
+            ],
+            "Poverty_in44": [
+                "농",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004802/MOV000359714_700X466.mp4"
             ]
         },
         "45": {
@@ -1813,10 +1813,6 @@
                 "넘어가다,대충,무성의하다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733701/MOV000244476_700X466.mp4"
             ],
-            "theory": [
-                "이론,논하다,설",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160924/345384/MOV000235107_700X466.mp4"
-            ],
             "LA": [
                 "엘에이,로스앤젤레스",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005058/MOV000359786_700X466.mp4"
@@ -1840,6 +1836,10 @@
             "prophet": [
                 "예언자",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/283806/MOV000279341_700X466.mp4"
+            ],
+            "theory_in46": [
+                "이론,논하다,설",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160924/345384/MOV000235107_700X466.mp4"
             ]
         },
         "47": {
@@ -2271,10 +2271,6 @@
                 "ㄷ",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009752/MOV000360049_700X466.mp4"
             ],
-            "hot": [
-                "뜨겁다,화끈",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628207/MOV000251499_700X466.mp4"
-            ],
             "to rise": [
                 "뜨다,개안",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733646/MOV000251503_700X466.mp4"
@@ -2294,6 +2290,10 @@
             "Morocco": [
                 "모로코",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221101/1047310/MOV000361213_700X466.mp4"
+            ],
+            "hot_in57": [
+                "뜨겁다,화끈",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628207/MOV000251499_700X466.mp4"
             ]
         },
         "58": {
@@ -2381,10 +2381,6 @@
                 "수입",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005882/MOV000359884_700X466.mp4"
             ],
-            "me": [
-                "나,내,제,자기",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631984/MOV000248548_700X466.mp4"
-            ],
             "Prime Minister": [
                 "총리",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1039974/MOV000360519_700X466.mp4"
@@ -2408,6 +2404,10 @@
             "room": [
                 "방",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629695/MOV000254450_700X466.mp4"
+            ],
+            "me_in60": [
+                "나,내,제,자기",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631984/MOV000248548_700X466.mp4"
             ]
         },
         "61": {
@@ -2422,10 +2422,6 @@
             "kilo": [
                 "킬로",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004510/MOV000359659_700X466.mp4"
-            ],
-            "(Shooting gun)": [
-                "(총을 쏘는)사수",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733385/MOV000243046_700X466.mp4"
             ],
             "Funding": [
                 "기금,기본금",
@@ -2450,6 +2446,10 @@
             "pharmacy": [
                 "약국,약방",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731402/MOV000256899_700X466.mp4"
+            ],
+            "(Shooting gun)_in61": [
+                "(총을 쏘는)사수",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733385/MOV000243046_700X466.mp4"
             ]
         },
         "62": {
@@ -2569,11 +2569,11 @@
                 "인기",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630116/MOV000235141_700X466.mp4"
             ],
-            "impression": [
+            "impression_in64": [
                 "인상,오르다,뛰다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009705/MOV000360015_700X466.mp4"
             ],
-            "Japanese": [
+            "Japanese_in64": [
                 "일본어,일어",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221101/1047219/MOV000361180_700X466.mp4"
             ]
@@ -2805,10 +2805,6 @@
                 "피고소인,피고",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/255522/MOV000266641_700X466.mp4"
             ],
-            "victim": [
-                "피해자",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784463/MOV000356893_700X466.mp4"
-            ],
             "medium": [
                 "중위",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001893/MOV000359470_700X466.mp4"
@@ -2828,6 +2824,10 @@
             "inside": [
                 "속,내부,안쪽,안",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727720/MOV000254699_700X466.mp4"
+            ],
+            "victim_in70": [
+                "피해자",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784463/MOV000356893_700X466.mp4"
             ]
         },
         "71": {
@@ -3107,10 +3107,6 @@
                 "주차",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627690/MOV000257397_700X466.mp4"
             ],
-            "please": [
-                "주세요,주십시오,달라다,달라고 하다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727524/MOV000257399_700X466.mp4"
-            ],
             "now": [
                 "지금,갓,이제,인제,현재,시방",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627693/MOV000257974_700X466.mp4"
@@ -3122,6 +3118,10 @@
             "glasses": [
                 "안경",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627699/MOV000256291_700X466.mp4"
+            ],
+            "please_in77": [
+                "주세요,주십시오,달라다,달라고 하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727524/MOV000257399_700X466.mp4"
             ]
         },
         "78": {
@@ -3183,10 +3183,6 @@
                 "뒤떨어지다,뒤지다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735200/MOV000240231_700X466.mp4"
             ],
-            "suddenly": [
-                "갑자기,냅다,별안간,갑작스럽다,갑작스레",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629720/MOV000241898_700X466.mp4"
-            ],
             "hit": [
                 "때리다,손찌검,패다,후려치다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200902/739538/MOV000240351_700X466.mp4"
@@ -3198,6 +3194,10 @@
             "rib": [
                 "갈비,늑골,갈비뼈",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732514/MOV000250349_700X466.mp4"
+            ],
+            "suddenly_in79": [
+                "갑자기,냅다,별안간,갑작스럽다,갑작스레",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629720/MOV000241898_700X466.mp4"
             ]
         },
         "80": {
@@ -3255,10 +3255,6 @@
                 "설,설날",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627337/MOV000259693_700X466.mp4"
             ],
-            "head": [
-                "머리,뇌,두뇌",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631998/MOV000250810_700X466.mp4"
-            ],
             "dust": [
                 "먼지,티끌",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005832/MOV000359850_700X466.mp4"
@@ -3282,6 +3278,10 @@
             "Sale": [
                 "장사,가게,상점,시장",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20190918/615396/MOV000258781_700X466.mp4"
+            ],
+            "head_in81": [
+                "머리,뇌,두뇌",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631998/MOV000250810_700X466.mp4"
             ]
         },
         "82": {
@@ -3427,10 +3427,6 @@
                 "실각",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001924/MOV000359501_700X466.mp4"
             ],
-            "shoulder": [
-                "어깨",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735639/MOV000257349_700X466.mp4"
-            ],
             "any": [
                 "어느,무엇,어떤,무슨,뭐,아무,어디",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632014/MOV000257351_700X466.mp4"
@@ -3450,6 +3446,10 @@
             "sad": [
                 "슬프다,슬픔,슬퍼하다,설움",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628057/MOV000256235_700X466.mp4"
+            ],
+            "shoulder_in85": [
+                "어깨",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735639/MOV000257349_700X466.mp4"
             ]
         },
         "86": {
@@ -3519,10 +3519,6 @@
                 "얻어맞다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735419/MOV000245002_700X466.mp4"
             ],
-            "owner": [
-                "임자,주인,주체",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731439/MOV000244760_700X466.mp4"
-            ],
             "grace": [
                 "유예,연기,물리다,미루다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005906/MOV000359908_700X466.mp4"
@@ -3534,6 +3530,10 @@
             "Behalf": [
                 "그릇되다,틀리다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20190918/615432/MOV000234816_700X466.mp4"
+            ],
+            "owner_in87": [
+                "임자,주인,주체",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731439/MOV000244760_700X466.mp4"
             ]
         },
         "88": {
@@ -3544,10 +3544,6 @@
             "Put up": [
                 "꾸다,변통,차용,빌리다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626623/MOV000253492_700X466.mp4"
-            ],
-            "fly": [
-                "날다,새",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631986/MOV000248816_700X466.mp4"
             ],
             "Be in urgent": [
                 "다급하다,성급하다,조급하다,급급하다,바쁘다,급조하다,변급하다",
@@ -3576,6 +3572,10 @@
             "niggard": [
                 "구두쇠,수전노",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732349/MOV000250110_700X466.mp4"
+            ],
+            "fly_in88": [
+                "날다,새",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631986/MOV000248816_700X466.mp4"
             ]
         },
         "89": {
@@ -3691,10 +3691,6 @@
                 "격주",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735479/MOV000236910_700X466.mp4"
             ],
-            "Defeat": [
-                "격파,깨어지다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735745/MOV000236912_700X466.mp4"
-            ],
             "infarction": [
                 "경색",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221024/1044191/MOV000361155_700X466.mp4"
@@ -3702,6 +3698,10 @@
             "condition": [
                 "조건",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735648/MOV000258940_700X466.mp4"
+            ],
+            "Defeat_in91": [
+                "격파,깨어지다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735745/MOV000236912_700X466.mp4"
             ]
         },
         "92": {
@@ -3755,10 +3755,6 @@
                 "함경남도",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040349/MOV000360748_700X466.mp4"
             ],
-            "pass": [
-                "합격,당첨,붙다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624332/MOV000236395_700X466.mp4"
-            ],
             "Get": [
                 "득하다,획득",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735434/MOV000236766_700X466.mp4"
@@ -3786,6 +3782,10 @@
             "high school": [
                 "고등학교,고교",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733269/MOV000250216_700X466.mp4"
+            ],
+            "pass_in93": [
+                "합격,당첨,붙다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624332/MOV000236395_700X466.mp4"
             ]
         },
         "94": {
@@ -3796,10 +3796,6 @@
             "aunt": [
                 "고모",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785455/MOV000357111_700X466.mp4"
-            ],
-            "hair": [
-                "머리카락,모발,두발,머리털",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628129/MOV000250812_700X466.mp4"
             ],
             "die": [
                 "죽다,돌아가다,사거,사망,서거,숨지다,죽음,임종",
@@ -3828,6 +3824,10 @@
             "Bodhisattva": [
                 "보살",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041851/MOV000360906_700X466.mp4"
+            ],
+            "hair_in94": [
+                "머리카락,모발,두발,머리털",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628129/MOV000250812_700X466.mp4"
             ]
         },
         "95": {
@@ -3838,10 +3838,6 @@
             "send": [
                 "발송,보내다,(편지 등을)부치다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191025/630834/MOV000254306_700X466.mp4"
-            ],
-            "seizure": [
-                "압류,차압",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735224/MOV000254316_700X466.mp4"
             ],
             "Wharf": [
                 "부두,항구,항",
@@ -3870,6 +3866,10 @@
             "chalk": [
                 "분필,백묵",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001970/MOV000359547_700X466.mp4"
+            ],
+            "seizure_in95": [
+                "압류,차압",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735224/MOV000254316_700X466.mp4"
             ]
         },
         "96": {
@@ -3931,10 +3931,6 @@
                 "사탕,알사탕,캔디",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632067/MOV000254364_700X466.mp4"
             ],
-            "outside": [
-                "바깥",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009681/MOV000359991_700X466.mp4"
-            ],
             "Korean sign language": [
                 "한국수화",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/732984/MOV000236289_700X466.mp4"
@@ -3954,6 +3950,10 @@
             "Han bok": [
                 "한복",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221024/1044054/MOV000361127_700X466.mp4"
+            ],
+            "outside_in97": [
+                "바깥",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009681/MOV000359991_700X466.mp4"
             ]
         },
         "98": {
@@ -3968,10 +3968,6 @@
             "rival": [
                 "라이벌,맞수",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221012/1038655/MOV000360161_700X466.mp4"
-            ],
-            "every": [
-                "모두,온통,전부,전체,제반,모든,온,다,모조리,몽땅,죄다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628213/MOV000251517_700X466.mp4"
             ],
             "Gyeongsangnam-do": [
                 "경상남도,경남",
@@ -3996,16 +3992,16 @@
             "Mormon": [
                 "모르몬교",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785462/MOV000357118_700X466.mp4"
+            ],
+            "every_in98": [
+                "모두,온통,전부,전체,제반,모든,온,다,모조리,몽땅,죄다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628213/MOV000251517_700X466.mp4"
             ]
         },
         "99": {
             "slip": [
                 "미끄러지다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221019/1042310/MOV000360959_700X466.mp4"
-            ],
-            "Training": [
-                "단련,수련,수행,연단",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733630/MOV000251022_700X466.mp4"
             ],
             "Dance": [
                 "춤,무용,연극,추다,춤추다",
@@ -4038,20 +4034,16 @@
             "Nurture": [
                 "가꾸다,기르다,배양,양성,양육,육성,키우다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191025/630742/MOV000249360_700X466.mp4"
+            ],
+            "Training_in99": [
+                "단련,수련,수행,연단",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733630/MOV000251022_700X466.mp4"
             ]
         },
         "100": {
             "be confined": [
                 "갇히다,구류,하지 못하게 하다,지배",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733639/MOV000250333_700X466.mp4"
-            ],
-            "Tear": [
-                "관하다,대하다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727758/MOV000240717_700X466.mp4"
-            ],
-            "suddenly": [
-                "갑자기,갑작스럽다,별안간,갑작스레",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632080/MOV000259636_700X466.mp4"
             ],
             "silence": [
                 "묵도",
@@ -4080,6 +4072,14 @@
             "counter": [
                 "계산대,카운터",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733469/MOV000249956_700X466.mp4"
+            ],
+            "Tear_in100": [
+                "관하다,대하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727758/MOV000240717_700X466.mp4"
+            ],
+            "suddenly_in100": [
+                "갑자기,갑작스럽다,별안간,갑작스레",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632080/MOV000259636_700X466.mp4"
             ]
         },
         "101": {
@@ -4405,13 +4405,13 @@
                 "장모,장모님",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733477/MOV000258775_700X466.mp4"
             ],
-            "sad": [
-                "서운하다,섭섭하다,안타깝다,애석,애타다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191101/633100/MOV000253278_700X466.mp4"
-            ],
             "Wrestling": [
                 "레슬링",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735075/MOV000251638_700X466.mp4"
+            ],
+            "sad_in108": [
+                "서운하다,섭섭하다,안타깝다,애석,애타다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191101/633100/MOV000253278_700X466.mp4"
             ]
         },
         "109": {
@@ -4527,10 +4527,6 @@
                 "진노",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735020/MOV000258557_700X466.mp4"
             ],
-            "temperature": [
-                "체온",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733433/MOV000258565_700X466.mp4"
-            ],
             "Frown": [
                 "찌푸리다,근심",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731329/MOV000259151_700X466.mp4"
@@ -4538,16 +4534,16 @@
             "magazine": [
                 "잡지,잡지책",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630155/MOV000258602_700X466.mp4"
+            ],
+            "temperature_in111": [
+                "체온",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733433/MOV000258565_700X466.mp4"
             ]
         },
         "112": {
             "Overtaking": [
                 "추월,앞지르기",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735021/MOV000259163_700X466.mp4"
-            ],
-            "cold": [
-                "추위,냉각,북,한랭,차다,춥다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628264/MOV000259166_700X466.mp4"
             ],
             "blessing": [
                 "축복",
@@ -4556,10 +4552,6 @@
             "officer": [
                 "장교,군교",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005750/MOV000359828_700X466.mp4"
-            ],
-            "joke": [
-                "장난",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735706/MOV000258634_700X466.mp4"
             ],
             "Map": [
                 "새우다,철야,밤샘,밤새우다",
@@ -4580,6 +4572,14 @@
             "party": [
                 "당사자,본인",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/252806/MOV000265457_700X466.mp4"
+            ],
+            "cold_in112": [
+                "추위,냉각,북,한랭,차다,춥다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628264/MOV000259166_700X466.mp4"
+            ],
+            "joke_in112": [
+                "장난",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735706/MOV000258634_700X466.mp4"
             ]
         },
         "113": {
@@ -4619,7 +4619,7 @@
                 "국민,백성",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731404/MOV000250415_700X466.mp4"
             ],
-            "mask": [
+            "mask_in113": [
                 "가면,탈",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041844/MOV000360899_700X466.mp4"
             ]
@@ -4709,10 +4709,6 @@
             ]
         },
         "116": {
-            "Great": [
-                "우수,훌륭하다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735748/MOV000255037_700X466.mp4"
-            ],
             "Asia": [
                 "아시아",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785495/MOV000357141_700X466.mp4"
@@ -4748,6 +4744,10 @@
             "Win": [
                 "수상하다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004859/MOV000359731_700X466.mp4"
+            ],
+            "Great_in116": [
+                "우수,훌륭하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735748/MOV000255037_700X466.mp4"
             ]
         },
         "117": {
@@ -4801,10 +4801,6 @@
                 "회장,사장",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200813/728911/MOV000248176_700X466.mp4"
             ],
-            "three": [
-                "삼,인삼",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629459/MOV000254637_700X466.mp4"
-            ],
             "a moment ago": [
                 "아까,전,전에,이전",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628329/MOV000255830_700X466.mp4"
@@ -4817,10 +4813,6 @@
                 "일치,대응,맞추다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735753/MOV000255065_700X466.mp4"
             ],
-            "army": [
-                "육군",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733331/MOV000256052_700X466.mp4"
-            ],
             "Twelve months": [
                 "십이월",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191031/632956/MOV000255405_700X466.mp4"
@@ -4832,6 +4824,14 @@
             "egg": [
                 "알,계란,달걀",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630112/MOV000256439_700X466.mp4"
+            ],
+            "three_in118": [
+                "삼,인삼",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629459/MOV000254637_700X466.mp4"
+            ],
+            "army_in118": [
+                "육군",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733331/MOV000256052_700X466.mp4"
             ]
         },
         "119": {
@@ -4842,10 +4842,6 @@
             "if": [
                 "혹시,혹,혹여",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733492/MOV000237715_700X466.mp4"
-            ],
-            "artist": [
-                "화가,화백",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20190918/615454/MOV000237769_700X466.mp4"
             ],
             "baths": [
                 "목욕탕",
@@ -4874,6 +4870,10 @@
             "form": [
                 "양식",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629528/MOV000257187_700X466.mp4"
+            ],
+            "artist_in119": [
+                "화가,화백",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20190918/615454/MOV000237769_700X466.mp4"
             ]
         },
         "120": {
@@ -4905,10 +4905,6 @@
                 "대결,대립",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731400/MOV000251445_700X466.mp4"
             ],
-            "answer": [
-                "대답,답",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631861/MOV000251459_700X466.mp4"
-            ],
             "deputy": [
                 "대리,대신,대치,대체,전환,바꾸다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200812/728262/MOV000251469_700X466.mp4"
@@ -4916,6 +4912,10 @@
             "Shut down": [
                 "다물다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1039916/MOV000360463_700X466.mp4"
+            ],
+            "answer_in120": [
+                "대답,답",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631861/MOV000251459_700X466.mp4"
             ]
         },
         "121": {
@@ -5007,10 +5007,6 @@
                 "제법",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005877/MOV000359879_700X466.mp4"
             ],
-            "Anniversary": [
-                "주년",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221024/1044071/MOV000361137_700X466.mp4"
-            ],
             "patriot": [
                 "애국자",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005077/MOV000359805_700X466.mp4"
@@ -5042,16 +5038,16 @@
             "clarify": [
                 "밝히다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735767/MOV000244920_700X466.mp4"
+            ],
+            "Anniversary_in123": [
+                "주년",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221024/1044071/MOV000361137_700X466.mp4"
             ]
         },
         "124": {
             "academy": [
                 "학원,배움터",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732087/MOV000244938_700X466.mp4"
-            ],
-            "(Time) Poetry": [
-                "(시간)시,시간",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200812/728378/MOV000246426_700X466.mp4"
             ],
             "Parent": [
                 "시부모",
@@ -5069,10 +5065,6 @@
                 "경비병,병위",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009604/MOV000359938_700X466.mp4"
             ],
-            "divide": [
-                "나누기,나눗셈,제하기",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735600/MOV000248556_700X466.mp4"
-            ],
             "Little": [
                 "꼬마,꼬맹이,소아",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627614/MOV000250435_700X466.mp4"
@@ -5084,13 +5076,17 @@
             "height": [
                 "높이",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631990/MOV000252582_700X466.mp4"
+            ],
+            "(Time) Poetry_in124": [
+                "(시간)시,시간",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200812/728378/MOV000246426_700X466.mp4"
+            ],
+            "divide_in124": [
+                "나누기,나눗셈,제하기",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735600/MOV000248556_700X466.mp4"
             ]
         },
         "125": {
-            "poor": [
-                "불쌍하다,가련하다,가엾다,애처롭다,측은하다,자비",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/732903/MOV000252807_700X466.mp4"
-            ],
             "dawn": [
                 "새벽",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626513/MOV000252830_700X466.mp4"
@@ -5126,6 +5122,10 @@
             "whack": [
                 "구타",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/734807/MOV000250277_700X466.mp4"
+            ],
+            "poor_in125": [
+                "불쌍하다,가련하다,가엾다,애처롭다,측은하다,자비",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/732903/MOV000252807_700X466.mp4"
             ]
         },
         "126": {
@@ -5145,10 +5145,6 @@
                 "부아",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784511/MOV000356935_700X466.mp4"
             ],
-            "Northern": [
-                "북도",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221012/1038766/MOV000360230_700X466.mp4"
-            ],
             "House -in -law": [
                 "시댁,시집",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004605/MOV000359685_700X466.mp4"
@@ -5157,10 +5153,6 @@
                 "여성부",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005064/MOV000359792_700X466.mp4"
             ],
-            "stack": [
-                "쌓다,쌓이다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629724/MOV000244538_700X466.mp4"
-            ],
             "Previous": [
                 "예전,옛날,옛적",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/732887/MOV000245578_700X466.mp4"
@@ -5168,6 +5160,14 @@
             "Donkey": [
                 "당나귀,나귀",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733627/MOV000251311_700X466.mp4"
+            ],
+            "Northern_in126": [
+                "북도",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221012/1038766/MOV000360230_700X466.mp4"
+            ],
+            "stack_in126": [
+                "쌓다,쌓이다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629724/MOV000244538_700X466.mp4"
             ]
         },
         "127": {
@@ -5203,13 +5203,13 @@
                 "캄보디아",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041827/MOV000360883_700X466.mp4"
             ],
-            "Be": [
-                "천하다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733099/MOV000258143_700X466.mp4"
-            ],
             "Hungry": [
                 "고프다,시장,굶다,배고프다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191017/628481/MOV000248310_700X466.mp4"
+            ],
+            "Be_in127": [
+                "천하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733099/MOV000258143_700X466.mp4"
             ]
         },
         "128": {
@@ -5291,7 +5291,7 @@
                 "것,몫,소유",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733676/MOV000249384_700X466.mp4"
             ],
-            "outside": [
+            "outside_in129": [
                 "겉",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632413/MOV000249388_700X466.mp4"
             ]
@@ -5325,10 +5325,6 @@
                 "건설,건축",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191007/624839/MOV000249130_700X466.mp4"
             ],
-            "snack": [
-                "과자,쿠키",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624434/MOV000249148_700X466.mp4"
-            ],
             "Mercy": [
                 "긍휼",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004890/MOV000359740_700X466.mp4"
@@ -5336,6 +5332,10 @@
             "impeachment": [
                 "탄핵,뽑다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732225/MOV000247050_700X466.mp4"
+            ],
+            "snack_in130": [
+                "과자,쿠키",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624434/MOV000249148_700X466.mp4"
             ]
         },
         "131": {
@@ -5359,10 +5359,6 @@
                 "코끼리",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627710/MOV000258035_700X466.mp4"
             ],
-            "Penalty": [
-                "과징금",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/248975/MOV000262102_700X466.mp4"
-            ],
             "Closure": [
                 "폐쇄,닫다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735169/MOV000247056_700X466.mp4"
@@ -5374,6 +5370,10 @@
             "Plaster": [
                 "미장공,미장이,미장쟁이",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732503/MOV000251423_700X466.mp4"
+            ],
+            "Penalty_in131": [
+                "과징금",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/248975/MOV000262102_700X466.mp4"
             ]
         },
         "132": {
@@ -5435,10 +5435,6 @@
                 "해장국",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733449/MOV000237296_700X466.mp4"
             ],
-            "Declaration": [
-                "선언,천명",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727516/MOV000253554_700X466.mp4"
-            ],
             "propaganda": [
                 "선전",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735624/MOV000253560_700X466.mp4"
@@ -5447,10 +5443,6 @@
                 "수출",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732255/MOV000253562_700X466.mp4"
             ],
-            "aunt": [
-                "숙모,작은어머니",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040140/MOV000360617_700X466.mp4"
-            ],
             "songpyeon": [
                 "송편",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221020/1042621/MOV000361005_700X466.mp4"
@@ -5458,6 +5450,14 @@
             "Stepmother": [
                 "계모",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/734927/MOV000249948_700X466.mp4"
+            ],
+            "Declaration_in133": [
+                "선언,천명",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727516/MOV000253554_700X466.mp4"
+            ],
+            "aunt_in133": [
+                "숙모,작은어머니",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040140/MOV000360617_700X466.mp4"
             ]
         },
         "134": {
@@ -5523,10 +5523,6 @@
                 "못생기다,못나다,추하다,밉다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632426/MOV000241430_700X466.mp4"
             ],
-            "pink": [
-                "분홍,분홍색,핑크,핑크색",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785402/MOV000357062_700X466.mp4"
-            ],
             "one hundred points": [
                 "백점",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735772/MOV000244946_700X466.mp4"
@@ -5539,7 +5535,11 @@
                 "(불을)지르다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221020/1042625/MOV000361009_700X466.mp4"
             ],
-            "dry": [
+            "pink_in135": [
+                "분홍,분홍색,핑크,핑크색",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785402/MOV000357062_700X466.mp4"
+            ],
+            "dry_in135": [
                 "말리다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/734826/MOV000252504_700X466.mp4"
             ]
@@ -5587,10 +5587,6 @@
             ]
         },
         "137": {
-            "young": [
-                "어리다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733462/MOV000254971_700X466.mp4"
-            ],
             "children": [
                 "어린이,새끼,아이,어린아이,소아",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191031/632957/MOV000254975_700X466.mp4"
@@ -5598,10 +5594,6 @@
             "Children's Day": [
                 "어린이날",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004477/MOV000359651_700X466.mp4"
-            ],
-            "author": [
-                "작가",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733475/MOV000255948_700X466.mp4"
             ],
             "ㅗ": [
                 "ㅗ",
@@ -5615,24 +5607,28 @@
                 "방글라데시",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040133/MOV000360611_700X466.mp4"
             ],
-            "Independence": [
-                "자립,독립,자주독립",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005852/MOV000359854_700X466.mp4"
-            ],
-            "Queen": [
-                "왕비,황후,군부",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/732943/MOV000256799_700X466.mp4"
-            ],
             "Loser": [
                 "패자,패배자",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009630/MOV000359961_700X466.mp4"
+            ],
+            "young_in137": [
+                "어리다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733462/MOV000254971_700X466.mp4"
+            ],
+            "author_in137": [
+                "작가",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733475/MOV000255948_700X466.mp4"
+            ],
+            "Independence_in137": [
+                "자립,독립,자주독립",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005852/MOV000359854_700X466.mp4"
+            ],
+            "Queen_in137": [
+                "왕비,황후,군부",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/732943/MOV000256799_700X466.mp4"
             ]
         },
         "138": {
-            "pizza": [
-                "피자",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191007/624868/MOV000243318_700X466.mp4"
-            ],
             "security office": [
                 "경비실",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005900/MOV000359902_700X466.mp4"
@@ -5668,6 +5664,10 @@
             "be empty": [
                 "비다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735678/MOV000259677_700X466.mp4"
+            ],
+            "pizza_in138": [
+                "피자",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191007/624868/MOV000243318_700X466.mp4"
             ]
         },
         "139": {
@@ -5729,10 +5729,6 @@
                 "가담,들어가다,참가,참석,참여,출석,진출",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191031/632950/MOV000249490_700X466.mp4"
             ],
-            "deputy": [
-                "대리인",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785150/MOV000356998_700X466.mp4"
-            ],
             "Community rehabilitation facilities for the disabled": [
                 "장애인 지역사회 재활 시설",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004552/MOV000359668_700X466.mp4"
@@ -5741,10 +5737,6 @@
                 "고발,고자질,일러바치다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735167/MOV000247372_700X466.mp4"
             ],
-            "Highly": [
-                "고의",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/248754/MOV000262019_700X466.mp4"
-            ],
             "Government execution interference": [
                 "공무 집행 방해죄",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220729/1003321/MOV000359616_700X466.mp4"
@@ -5752,6 +5744,14 @@
             "soap": [
                 "비누,세제",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627276/MOV000253101_700X466.mp4"
+            ],
+            "deputy_in140": [
+                "대리인",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785150/MOV000356998_700X466.mp4"
+            ],
+            "Highly_in140": [
+                "고의",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/248754/MOV000262019_700X466.mp4"
             ]
         },
         "141": {
@@ -5775,10 +5775,6 @@
                 "고려",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001955/MOV000359532_700X466.mp4"
             ],
-            "Sip": [
-                "모금,수금,헌금",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004810/MOV000359718_700X466.mp4"
-            ],
             "sewing machine": [
                 "미싱,봉제,재봉",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/730973/MOV000251403_700X466.mp4"
@@ -5794,6 +5790,10 @@
             "Dog": [
                 "개안,깨닫다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221024/1044181/MOV000361153_700X466.mp4"
+            ],
+            "Sip_in141": [
+                "모금,수금,헌금",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004810/MOV000359718_700X466.mp4"
             ]
         },
         "142": {
@@ -5825,10 +5825,6 @@
                 "세뇌",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004455/MOV000359643_700X466.mp4"
             ],
-            "length": [
-                "세로,종",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220812/1010126/MOV000360115_700X466.mp4"
-            ],
             "Ukraine": [
                 "우크라이나",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040146/MOV000360623_700X466.mp4"
@@ -5836,6 +5832,10 @@
             "green": [
                 "녹색,초록,초록색",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727512/MOV000252424_700X466.mp4"
+            ],
+            "length_in142": [
+                "세로,종",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220812/1010126/MOV000360115_700X466.mp4"
             ]
         },
         "143": {
@@ -5905,10 +5905,6 @@
                 "문제",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628090/MOV000250701_700X466.mp4"
             ],
-            "go": [
-                "다니다",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628099/MOV000250725_700X466.mp4"
-            ],
             "enter": [
                 "들어가다,방문하다,입장",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631864/MOV000250932_700X466.mp4"
@@ -5920,6 +5916,10 @@
             "Head": [
                 "골머리를 앓다,골치(가) 아프다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732521/MOV000240689_700X466.mp4"
+            ],
+            "go_in144": [
+                "다니다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628099/MOV000250725_700X466.mp4"
             ]
         },
         "145": {
@@ -5938,10 +5938,6 @@
             "fraud": [
                 "사기,기만",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735002/MOV000253810_700X466.mp4"
-            ],
-            "explanation": [
-                "설명",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191025/630927/MOV000253816_700X466.mp4"
             ],
             "beautiful": [
                 "아름답다,미",
@@ -5962,6 +5958,10 @@
             "application": [
                 "신청,주문",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200819/731063/MOV000257297_700X466.mp4"
+            ],
+            "explanation_in145": [
+                "설명",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191025/630927/MOV000253816_700X466.mp4"
             ]
         },
         "146": {
@@ -6011,10 +6011,6 @@
                 "무능력,무자격",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735402/MOV000241442_700X466.mp4"
             ],
-            "tie": [
-                "묶다,매듭",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040359/MOV000360758_700X466.mp4"
-            ],
             "detail": [
                 "내용,경과,내역,사항",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631910/MOV000241683_700X466.mp4"
@@ -6043,7 +6039,11 @@
                 "냉장고",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221019/1042472/MOV000360992_700X466.mp4"
             ],
-            "take": [
+            "tie_in147": [
+                "묶다,매듭",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040359/MOV000360758_700X466.mp4"
+            ],
+            "take_in147": [
                 "데려가다,안내,인도,인솔,데리다,이끌다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631866/MOV000252032_700X466.mp4"
             ]
@@ -6149,10 +6149,6 @@
                 "갈색",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732158/MOV000243894_700X466.mp4"
             ],
-            "Toilet": [
-                "세면,세수,씻다,세안",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632233/MOV000245918_700X466.mp4"
-            ],
             "car wash": [
                 "세차",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009732/MOV000360029_700X466.mp4"
@@ -6168,13 +6164,13 @@
             "Ice cake": [
                 "아이스케이크",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191007/625159/MOV000246580_700X466.mp4"
+            ],
+            "Toilet_in150": [
+                "세면,세수,씻다,세안",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632233/MOV000245918_700X466.mp4"
             ]
         },
         "151": {
-            "repair": [
-                "보수,수리,수선",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200818/730511/MOV000246002_700X466.mp4"
-            ],
             "Flock": [
                 "몰려가다,몰려들다,쇄도",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727498/MOV000243598_700X466.mp4"
@@ -6210,6 +6206,10 @@
             "demonstration": [
                 "시위,데모",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041775/MOV000360836_700X466.mp4"
+            ],
+            "repair_in151": [
+                "보수,수리,수선",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200818/730511/MOV000246002_700X466.mp4"
             ]
         },
         "152": {
@@ -6351,10 +6351,6 @@
                 "흥분",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735051/MOV000242008_700X466.mp4"
             ],
-            "green": [
-                "초록색",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732212/MOV000242168_700X466.mp4"
-            ],
             "detention": [
                 "억류",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785122/MOV000356978_700X466.mp4"
@@ -6378,6 +6374,10 @@
             "sauna": [
                 "사우나",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732436/MOV000254090_700X466.mp4"
+            ],
+            "green_in155": [
+                "초록색",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732212/MOV000242168_700X466.mp4"
             ]
         },
         "156": {
@@ -6385,17 +6385,9 @@
                 "주일",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732410/MOV000255051_700X466.mp4"
             ],
-            "subject": [
-                "주제,제목",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785441/MOV000357097_700X466.mp4"
-            ],
             "Sesame oil": [
                 "참기름",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1039901/MOV000360450_700X466.mp4"
-            ],
-            "income": [
-                "소득",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733637/MOV000254410_700X466.mp4"
             ],
             "Iran": [
                 "이란",
@@ -6420,6 +6412,14 @@
             "Blood": [
                 "혈안",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009542/MOV000359925_700X466.mp4"
+            ],
+            "subject_in156": [
+                "주제,제목",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785441/MOV000357097_700X466.mp4"
+            ],
+            "income_in156": [
+                "소득",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733637/MOV000254410_700X466.mp4"
             ]
         },
         "157": {
@@ -6434,10 +6434,6 @@
             "rumor": [
                 "소문",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733635/MOV000254536_700X466.mp4"
-            ],
-            "stop": [
-                "중지,끄다,멈추다,그만,마르다,정지",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632358/MOV000260289_700X466.mp4"
             ],
             "story": [
                 "이야기,강의,설교",
@@ -6462,6 +6458,10 @@
             "Sleepyhead": [
                 "잠꾸러기,잠보",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735016/MOV000258461_700X466.mp4"
+            ],
+            "stop_in157": [
+                "중지,끄다,멈추다,그만,마르다,정지",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632358/MOV000260289_700X466.mp4"
             ]
         },
         "158": {
@@ -6515,10 +6515,6 @@
                 "총사령관",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005076/MOV000359804_700X466.mp4"
             ],
-            "never": [
-                "절대,절대로,한사코",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200902/739518/MOV000237931_700X466.mp4"
-            ],
             "phone number": [
                 "전화번호",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784490/MOV000356914_700X466.mp4"
@@ -6546,6 +6542,10 @@
             "delete": [
                 "삭제,고무,고무지우개,지우다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630192/MOV000240673_700X466.mp4"
+            ],
+            "never_in159": [
+                "절대,절대로,한사코",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200902/739518/MOV000237931_700X466.mp4"
             ]
         },
         "160": {
@@ -6557,10 +6557,6 @@
                 "영하",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624406/MOV000245554_700X466.mp4"
             ],
-            "method": [
-                "수단,수법",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221020/1042614/MOV000360998_700X466.mp4"
-            ],
             "stay": [
                 "머무르다,존재,체류,계시다,묵다",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627199/MOV000250814_700X466.mp4"
@@ -6568,10 +6564,6 @@
             "Gayageum": [
                 "가야금",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221019/1042465/MOV000360987_700X466.mp4"
-            ],
-            "join": [
-                "가입,등록",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627638/MOV000249914_700X466.mp4"
             ],
             "most": [
                 "가장,가구주,주인,호주",
@@ -6588,6 +6580,14 @@
             "watermelon": [
                 "수박",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626519/MOV000253031_700X466.mp4"
+            ],
+            "method_in160": [
+                "수단,수법",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221020/1042614/MOV000360998_700X466.mp4"
+            ],
+            "join_in160": [
+                "가입,등록",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627638/MOV000249914_700X466.mp4"
             ]
         },
         "161": {
@@ -6602,10 +6602,6 @@
             "Twelve o'clock": [
                 "열두시,정오",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632336/MOV000255876_700X466.mp4"
-            ],
-            "sister": [
-                "언니",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629669/MOV000255131_700X466.mp4"
             ],
             "Yamche": [
                 "얌체",
@@ -6623,19 +6619,391 @@
                 "ㅒ",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005756/MOV000359833_700X466.mp4"
             ],
-            "yes": [
-                "ㅓ",
-                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005757/MOV000359834_700X466.mp4"
-            ],
             "Vice president": [
                 "부반장",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005690/MOV000359815_700X466.mp4"
+            ],
+            "sister_in161": [
+                "언니",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629669/MOV000255131_700X466.mp4"
+            ],
+            "yes_in161": [
+                "ㅓ",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005757/MOV000359834_700X466.mp4"
             ]
         },
         "162": {
             "Rose": [
                 "장미꽃",
                 "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624407/MOV000235007_700X466.mp4"
+            ],
+            "obstacle": [
+                "장애,병신,제대로 안되다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/265242/MOV000270759_700X466.mp4"
+            ],
+            "we": [
+                "우리,저희",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629626/MOV000255025_700X466.mp4"
+            ],
+            "aver": [
+                "단언",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041806/MOV000360864_700X466.mp4"
+            ],
+            "as much as": [
+                "만큼,어치,정도,-쯤",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629449/MOV000252363_700X466.mp4"
+            ],
+            "release": [
+                "석방,방면",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735014/MOV000260181_700X466.mp4"
+            ],
+            "pants": [
+                "바지",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221019/1042271/MOV000360931_700X466.mp4"
+            ],
+            "sleigh": [
+                "썰매",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627714/MOV000255556_700X466.mp4"
+            ],
+            "Nausea": [
+                "겨레,동포",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785440/MOV000357096_700X466.mp4"
+            ],
+            "you_in162": [
+                "ㄴ",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009739/MOV000360036_700X466.mp4"
+            ]
+        },
+        "163": {
+            "bald head": [
+                "대머리",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732512/MOV000251473_700X466.mp4"
+            ],
+            "adhesive plaster": [
+                "반창고",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735656/MOV000254282_700X466.mp4"
+            ],
+            "generation": [
+                "발생,생성,나다,나오다,돋다,생기다,솟다,트다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626655/MOV000254304_700X466.mp4"
+            ],
+            "Devotion": [
+                "정진,꾸준하다,부지런하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200813/728872/MOV000248390_700X466.mp4"
+            ],
+            "Attendance": [
+                "출석부",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/629985/MOV000259327_700X466.mp4"
+            ],
+            "expenditure": [
+                "지출",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735708/MOV000258401_700X466.mp4"
+            ],
+            "Office work": [
+                "사무직",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221012/1038714/MOV000360197_700X466.mp4"
+            ],
+            "class": [
+                "과,전공",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220802/1005905/MOV000359907_700X466.mp4"
+            ],
+            "Passionate": [
+                "애처가",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005063/MOV000359791_700X466.mp4"
+            ],
+            "venereal disease": [
+                "성병",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/262644/MOV000269669_700X466.mp4"
+            ]
+        },
+        "164": {
+            "Sexual assault": [
+                "성폭행,강간",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735153/MOV000245398_700X466.mp4"
+            ],
+            "Individual": [
+                "개별,각,각각,각기,개개,낱낱이,제각기,각자",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627589/MOV000248724_700X466.mp4"
+            ],
+            "Be the best": [
+                "제일이다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624425/MOV000242880_700X466.mp4"
+            ],
+            "proof": [
+                "입증,증명",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735149/MOV000238329_700X466.mp4"
+            ],
+            "Usual": [
+                "평상,평상시,평소",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20190918/615426/MOV000234500_700X466.mp4"
+            ],
+            "Press down": [
+                "누르다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732630/MOV000252715_700X466.mp4"
+            ],
+            "Frame": [
+                "누명",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735763/MOV000241815_700X466.mp4"
+            ],
+            "A wolf": [
+                "늑대,이리",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/734846/MOV000250588_700X466.mp4"
+            ],
+            "heaven": [
+                "천당,천국",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/285312/MOV000284295_700X466.mp4"
+            ],
+            "center": [
+                "중앙,도중,중,중도,가운데,중심",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629447/MOV000257691_700X466.mp4"
+            ]
+        },
+        "165": {
+            "Plus": [
+                "더하기,플러스,보태기",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009740/MOV000360037_700X466.mp4"
+            ],
+            "exploitation": [
+                "착취",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735697/MOV000259558_700X466.mp4"
+            ],
+            "Bring": [
+                "가져오다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200811/727738/MOV000240027_700X466.mp4"
+            ],
+            "posting": [
+                "게시,제시",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735132/MOV000240063_700X466.mp4"
+            ],
+            "part time job": [
+                "아르바이트",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626538/MOV000246476_700X466.mp4"
+            ],
+            "Doctor": [
+                "의병,의용군,의군",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004448/MOV000359637_700X466.mp4"
+            ],
+            "Communication": [
+                "의사소통",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732261/MOV000246496_700X466.mp4"
+            ],
+            "living expenses": [
+                "생활비,생계비",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004532/MOV000359663_700X466.mp4"
+            ],
+            "document": [
+                "서류,문서",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221020/1042651/MOV000361014_700X466.mp4"
+            ],
+            "new year_in165": [
+                "설,설날",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20211216/915903/MOV000359351_700X466.mp4"
+            ]
+        },
+        "166": {
+            "Seoul Station": [
+                "서울역",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004533/MOV000359664_700X466.mp4"
+            ],
+            "ceremony": [
+                "식,축하,잔치,행사,파티",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/629983/MOV000259307_700X466.mp4"
+            ],
+            "Run": [
+                "출마",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735689/MOV000259317_700X466.mp4"
+            ],
+            "cousin": [
+                "사촌",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785533/MOV000357178_700X466.mp4"
+            ],
+            "everyday": [
+                "날마다,나날,매번,매일,수시,일상,늘,매양,번번이,언제나,항상",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630063/MOV000248822_700X466.mp4"
+            ],
+            "Individuality": [
+                "개성,개경",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221014/1040284/MOV000360686_700X466.mp4"
+            ],
+            "professor": [
+                "교수",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627206/MOV000249708_700X466.mp4"
+            ],
+            "Text": [
+                "글월,문,문구,문장",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632018/MOV000249178_700X466.mp4"
+            ],
+            "neighborhood": [
+                "근방,가까이,근처,부근,인근",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624438/MOV000249190_700X466.mp4"
+            ],
+            "Get_in166": [
+                "절다,절룩거리다,절름거리다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200901/739378/MOV000257930_700X466.mp4"
+            ]
+        },
+        "167": {
+            "old": [
+                "낡다,부패,묵다,썩다,헌",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220803/1006210/MOV000359910_700X466.mp4"
+            ],
+            "Summarize": [
+                "간추리다,집약,요약하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160924/345446/MOV000240141_700X466.mp4"
+            ],
+            "change": [
+                "거스름돈,잔액,잔금,잔돈",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009602/MOV000359937_700X466.mp4"
+            ],
+            "Kick": [
+                "걷어차다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784494/MOV000356918_700X466.mp4"
+            ],
+            "For granted": [
+                "당연하다,마땅하다,응당하다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785502/MOV000357148_700X466.mp4"
+            ],
+            "oppose": [
+                "대들다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735727/MOV000239963_700X466.mp4"
+            ],
+            "Celebrity": [
+                "저명인사",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005053/MOV000359781_700X466.mp4"
+            ],
+            "island": [
+                "섬",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732097/MOV000238913_700X466.mp4"
+            ],
+            "Disabled dog": [
+                "장애인 보조견",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785126/MOV000356982_700X466.mp4"
+            ],
+            "date_in167": [
+                "날짜,언제,날,일자",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629670/MOV000255143_700X466.mp4"
+            ]
+        },
+        "168": {
+            "Special Education Act on the Disabled, etc.": [
+                "장애인 등에 대한 특수 교육법",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001883/MOV000359460_700X466.mp4"
+            ],
+            "Welfare facilities for the disabled": [
+                "장애인 복지 시설",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009614/MOV000359948_700X466.mp4"
+            ],
+            "Faster": [
+                "재빠르다,기미,눈치",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785549/MOV000357193_700X466.mp4"
+            ],
+            "Work": [
+                "재택근무",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221021/1043187/MOV000361080_700X466.mp4"
+            ],
+            "Hypotension": [
+                "저혈압",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735646/MOV000259487_700X466.mp4"
+            ],
+            "hatch": [
+                "까다,벗기다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631878/MOV000250152_700X466.mp4"
+            ],
+            "Children with disabilities": [
+                "장애 아동 수당",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1004551/MOV000359667_700X466.mp4"
+            ],
+            "wake up": [
+                "깨다,깨뜨리다,파괴,파손",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200813/728864/MOV000250303_700X466.mp4"
+            ],
+            "bite": [
+                "깨물다,물다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784507/MOV000356931_700X466.mp4"
+            ],
+            "step": [
+                "단계,절차,차례",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733658/MOV000250900_700X466.mp4"
+            ]
+        },
+        "169": {
+            "(Space)": [
+                "(공간이)차다,가득차다,메우다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630180/MOV000259285_700X466.mp4"
+            ],
+            "conductor": [
+                "차장",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/734985/MOV000259423_700X466.mp4"
+            ],
+            "mistaken": [
+                "착각,착오",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200824/735196/MOV000259435_700X466.mp4"
+            ],
+            "spine": [
+                "척추",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/266373/MOV000271224_700X466.mp4"
+            ],
+            "cloth": [
+                "천,일천",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009687/MOV000359997_700X466.mp4"
+            ],
+            "nineteen": [
+                "열아홉,십구",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220811/1009744/MOV000360041_700X466.mp4"
+            ],
+            "Venue": [
+                "대궐,고궁,궁,궁궐,궁전",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220801/1005036/MOV000359765_700X466.mp4"
+            ],
+            "theater": [
+                "극장",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785170/MOV000357016_700X466.mp4"
+            ],
+            "Fundamentals": [
+                "근본,기반,기본,기초,바탕,뿌리",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20220727/1001878/MOV000359455_700X466.mp4"
+            ],
+            "Work_in169": [
+                "근로,근무,노동,일,작업",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627735/MOV000249056_700X466.mp4"
+            ]
+        },
+        "170": {
+            "famous": [
+                "유명,지명",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191017/628493/MOV000255900_700X466.mp4"
+            ],
+            "will": [
+                "의지",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200821/733301/MOV000256375_700X466.mp4"
+            ],
+            "scary": [
+                "무섭다,겁,겁나다,두려워하다,두렵다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191025/630992/MOV000252416_700X466.mp4"
+            ],
+            "Cord": [
+                "마중",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627339/MOV000252058_700X466.mp4"
+            ],
+            "mind": [
+                "마음,심리,심정",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627081/MOV000251936_700X466.mp4"
+            ],
+            "Like": [
+                "마음에 들다",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627198/MOV000251940_700X466.mp4"
+            ],
+            "drug": [
+                "마약,아편,중독,탐닉",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735399/MOV000241143_700X466.mp4"
+            ],
+            "Maria": [
+                "마리아",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20160325/281849/MOV000277684_700X466.mp4"
+            ],
+            "remote": [
+                "리모컨",
+                "http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041784/MOV000360845_700X466.mp4"
             ]
         }
     }

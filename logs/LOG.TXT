@@ -1914,3 +1914,349 @@
 2024-02-20 18:34:46 ::: Page 161 작성 완료 (페이지 완료까지 걸린시간 0:44:31.166083)
 2024-02-20 18:34:47 ::: Page 162 api 요청 성공
 2024-02-20 18:37:48 ::: 	1. 장미꽃 작성완료 (걸린시간 0:03:01.191537)
+2024-02-23 13:26:40 ::: Page 163 api 요청 성공
+2024-02-23 13:26:50 ::: 	1. 대머리 작성완료 (걸린시간 0:00:09.472542)
+2024-02-23 13:27:35 ::: Page 164 api 요청 성공
+2024-02-23 13:28:25 ::: Page 162 api 요청 성공
+2024-02-23 13:31:28 ::: 	1. 장미꽃 작성완료 (걸린시간 0:03:03.676742)
+2024-02-23 13:37:52 ::: 	2. 장애,병신,제대로 안되다 작성완료 (걸린시간 0:06:22.978321)
+2024-02-23 13:40:30 ::: 	3. 우리,저희 작성완료 (걸린시간 0:02:37.961644)
+2024-02-23 13:44:20 ::: 	4. 단언 작성완료 (걸린시간 0:03:49.783700)
+2024-02-23 13:47:04 ::: 	5. 만큼,어치,정도,-쯤 작성완료 (걸린시간 0:02:42.974119)
+2024-02-23 13:51:34 ::: 	6. 석방,방면 작성완료 (걸린시간 0:04:29.445519)
+2024-02-23 13:56:27 ::: 	7. 바지 작성완료 (걸린시간 0:04:52.564766)
+2024-02-23 14:00:13 ::: 	8. ㄴ 작성완료 (걸린시간 0:03:45.591089)
+2024-02-23 14:02:55 ::: 	9. 썰매 작성완료 (걸린시간 0:02:42.089032)
+2024-02-23 14:08:32 ::: 	10. 겨레,동포 작성완료 (걸린시간 0:05:36.218717)
+2024-02-23 14:08:32 ::: Page 162 작성 완료 (페이지 완료까지 걸린시간 0:40:07.384247)
+2024-02-23 14:08:32 ::: Page 163 api 요청 성공
+2024-02-23 14:13:36 ::: 	1. 대머리 작성완료 (걸린시간 0:05:03.232780)
+2024-02-23 14:17:59 ::: 	2. 반창고 작성완료 (걸린시간 0:04:22.524454)
+2024-02-23 14:24:07 ::: 	3. 발생,생성,나다,나오다,돋다,생기다,솟다,트다 작성완료 (걸린시간 0:06:08.276762)
+2024-02-23 14:26:56 ::: 	4. 정진,꾸준하다,부지런하다 작성완료 (걸린시간 0:02:48.271855)
+2024-02-23 14:33:08 ::: 	5. 출석부 작성완료 (걸린시간 0:06:11.051008)
+2024-02-23 14:37:00 ::: 	6. 지출 작성완료 (걸린시간 0:03:51.909958)
+2024-02-23 14:42:59 ::: 	7. 사무직 작성완료 (걸린시간 0:05:58.451558)
+2024-02-23 14:48:03 ::: 	8. 과,전공 작성완료 (걸린시간 0:05:03.789063)
+2024-02-23 14:55:06 ::: 	9. 애처가 작성완료 (걸린시간 0:07:03.026002)
+2024-02-23 15:01:42 ::: 	10. 성병 작성완료 (걸린시간 0:06:34.728729)
+2024-02-23 15:01:42 ::: Page 163 작성 완료 (페이지 완료까지 걸린시간 0:53:09.614232)
+2024-02-23 15:01:42 ::: Page 164 api 요청 성공
+2024-02-23 15:06:43 ::: 	1. 성폭행,강간 작성완료 (걸린시간 0:05:00.952565)
+2024-02-23 15:09:16 ::: 	2. 개별,각,각각,각기,개개,낱낱이,제각기,각자 작성완료 (걸린시간 0:02:32.023168)
+2024-02-23 15:14:40 ::: 	3. 제일이다 작성완료 (걸린시간 0:05:23.556075)
+2024-02-23 15:19:18 ::: 	4. 입증,증명 작성완료 (걸린시간 0:04:38.256420)
+2024-02-23 15:22:24 ::: 	5. 평상,평상시,평소 작성완료 (걸린시간 0:03:05.236713)
+2024-02-23 15:28:08 ::: 	6. 누르다 작성완료 (걸린시간 0:05:43.197033)
+2024-02-23 15:32:20 ::: 	7. 누명 작성완료 (걸린시간 0:04:11.656806)
+2024-02-23 15:36:38 ::: 	8. 늑대,이리 작성완료 (걸린시간 0:04:17.670052)
+2024-02-23 15:42:34 ::: 	9. 천당,천국 작성완료 (걸린시간 0:05:55.971601)
+2024-02-23 15:45:19 ::: 	10. 중앙,도중,중,중도,가운데,중심 작성완료 (걸린시간 0:02:43.627583)
+2024-02-23 15:45:19 ::: Page 164 작성 완료 (페이지 완료까지 걸린시간 0:43:36.808769)
+2024-02-23 15:45:19 ::: Page 165 api 요청 성공
+2024-02-23 15:49:39 ::: 	1. 더하기,플러스,보태기 작성완료 (걸린시간 0:04:19.377766)
+2024-02-23 15:53:22 ::: 	2. 착취 작성완료 (걸린시간 0:03:43.309954)
+2024-02-23 15:57:40 ::: 	3. 설,설날 작성완료 (걸린시간 0:04:17.700557)
+2024-02-23 16:02:38 ::: 	4. 가져오다 작성완료 (걸린시간 0:04:57.583909)
+2024-02-23 16:07:31 ::: 	5. 게시,제시 작성완료 (걸린시간 0:04:52.766159)
+2024-02-23 16:10:16 ::: 	6. 아르바이트 작성완료 (걸린시간 0:02:43.840790)
+2024-02-23 16:17:45 ::: 	7. 의병,의용군,의군 작성완료 (걸린시간 0:07:28.386695)
+2024-02-23 16:23:13 ::: 	8. 의사소통 작성완료 (걸린시간 0:05:28.362379)
+2024-02-23 16:29:22 ::: 	9. 생활비,생계비 작성완료 (걸린시간 0:06:08.365656)
+2024-02-23 16:35:20 ::: 	10. 서류,문서 작성완료 (걸린시간 0:05:57.224151)
+2024-02-23 16:35:20 ::: Page 165 작성 완료 (페이지 완료까지 걸린시간 0:50:00.860533)
+2024-02-23 16:35:20 ::: Page 166 api 요청 성공
+2024-02-23 16:42:02 ::: 	1. 서울역 작성완료 (걸린시간 0:06:41.287781)
+2024-02-23 16:44:44 ::: 	2. 식,축하,잔치,행사,파티 작성완료 (걸린시간 0:02:41.872176)
+2024-02-23 16:49:26 ::: 	3. 출마 작성완료 (걸린시간 0:04:41.514879)
+2024-02-23 16:56:31 ::: 	4. 사촌 작성완료 (걸린시간 0:07:04.948605)
+2024-02-23 16:59:16 ::: 	5. 날마다,나날,매번,매일,수시,일상,늘,매양,번번이,언제나,항상 작성완료 (걸린시간 0:02:45.011969)
+2024-02-23 17:03:54 ::: 	6. 개성,개경 작성완료 (걸린시간 0:04:36.944563)
+2024-02-23 17:06:45 ::: 	7. 교수 작성완료 (걸린시간 0:02:51.370513)
+2024-02-23 17:11:56 ::: 	8. 절다,절룩거리다,절름거리다 작성완료 (걸린시간 0:05:10.428835)
+2024-02-23 17:14:34 ::: 	9. 글월,문,문구,문장 작성완료 (걸린시간 0:02:37.740429)
+2024-02-23 17:17:07 ::: 	10. 근방,가까이,근처,부근,인근 작성완료 (걸린시간 0:02:31.991074)
+2024-02-23 17:17:07 ::: Page 166 작성 완료 (페이지 완료까지 걸린시간 0:41:46.881662)
+2024-02-23 17:17:07 ::: Page 167 api 요청 성공
+2024-02-23 17:19:48 ::: 	1. 날짜,언제,날,일자 작성완료 (걸린시간 0:02:40.278293)
+2024-02-23 17:24:54 ::: 	2. 낡다,부패,묵다,썩다,헌 작성완료 (걸린시간 0:05:05.445598)
+2024-02-23 17:28:08 ::: 	3. 간추리다,집약,요약하다 작성완료 (걸린시간 0:03:14.290571)
+2024-02-23 17:33:56 ::: 	4. 거스름돈,잔액,잔금,잔돈 작성완료 (걸린시간 0:05:47.069692)
+2024-02-23 17:39:32 ::: 	5. 걷어차다 작성완료 (걸린시간 0:05:35.915890)
+2024-02-23 17:45:28 ::: 	6. 당연하다,마땅하다,응당하다 작성완료 (걸린시간 0:05:55.670405)
+2024-02-23 17:49:34 ::: 	7. 대들다 작성완료 (걸린시간 0:04:05.305255)
+2024-02-23 17:57:50 ::: 	8. 저명인사 작성완료 (걸린시간 0:08:15.960189)
+2024-02-23 18:03:23 ::: 	9. 섬 작성완료 (걸린시간 0:05:31.672768)
+2024-02-23 18:09:32 ::: 	10. 장애인 보조견 작성완료 (걸린시간 0:06:09.411813)
+2024-02-23 18:09:33 ::: Page 167 작성 완료 (페이지 완료까지 걸린시간 0:52:25.336359)
+2024-02-23 18:09:33 ::: Page 168 api 요청 성공
+2024-02-23 18:17:20 ::: 	1. 장애인 등에 대한 특수 교육법 작성완료 (걸린시간 0:07:46.728929)
+2024-02-23 18:25:08 ::: 	2. 장애인 복지 시설 작성완료 (걸린시간 0:07:48.258928)
+2024-02-23 18:30:24 ::: 	3. 재빠르다,기미,눈치 작성완료 (걸린시간 0:05:15.034302)
+2024-02-23 18:35:47 ::: 	4. 재택근무 작성완료 (걸린시간 0:05:22.796343)
+2024-02-23 18:40:19 ::: 	5. 저혈압 작성완료 (걸린시간 0:04:31.804944)
+2024-02-23 18:43:01 ::: 	6. 까다,벗기다 작성완료 (걸린시간 0:02:42.013552)
+2024-02-23 18:49:48 ::: 	7. 장애 아동 수당 작성완료 (걸린시간 0:06:46.607554)
+2024-02-23 18:52:16 ::: 	8. 깨다,깨뜨리다,파괴,파손 작성완료 (걸린시간 0:02:26.794820)
+2024-02-23 18:58:10 ::: 	9. 깨물다,물다 작성완료 (걸린시간 0:05:54.291896)
+2024-02-23 19:03:15 ::: 	10. 단계,절차,차례 작성완료 (걸린시간 0:05:04.815962)
+2024-02-23 19:03:16 ::: Page 168 작성 완료 (페이지 완료까지 걸린시간 0:53:42.871474)
+2024-02-23 19:03:16 ::: Page 169 api 요청 성공
+2024-02-23 19:09:14 ::: 	1. (공간이)차다,가득차다,메우다 작성완료 (걸린시간 0:05:58.398459)
+2024-02-23 19:13:43 ::: 	2. 차장 작성완료 (걸린시간 0:04:28.032609)
+2024-02-23 19:18:19 ::: 	3. 착각,착오 작성완료 (걸린시간 0:04:35.271867)
+2024-02-23 19:25:15 ::: 	4. 척추 작성완료 (걸린시간 0:06:55.475254)
+2024-02-23 19:29:11 ::: 	5. 천,일천 작성완료 (걸린시간 0:03:55.869701)
+2024-02-23 19:33:47 ::: 	6. 열아홉,십구 작성완료 (걸린시간 0:04:35.665878)
+2024-02-23 19:39:50 ::: 	7. 대궐,고궁,궁,궁궐,궁전 작성완료 (걸린시간 0:06:02.864149)
+2024-02-23 19:46:46 ::: 	8. 극장 작성완료 (걸린시간 0:06:55.961537)
+2024-02-23 19:49:14 ::: 	9. 근로,근무,노동,일,작업 작성완료 (걸린시간 0:02:27.112546)
+2024-02-23 19:54:29 ::: 	10. 근본,기반,기본,기초,바탕,뿌리 작성완료 (걸린시간 0:05:14.056093)
+2024-02-23 19:54:29 ::: Page 169 작성 완료 (페이지 완료까지 걸린시간 0:51:13.013944)
+2024-02-23 19:54:29 ::: Page 170 api 요청 성공
+2024-02-23 19:56:56 ::: 	1. 유명,지명 작성완료 (걸린시간 0:02:26.947493)
+2024-02-23 20:01:48 ::: 	2. 의지 작성완료 (걸린시간 0:04:51.730025)
+2024-02-23 20:07:40 ::: 	3. 무섭다,겁,겁나다,두려워하다,두렵다 작성완료 (걸린시간 0:05:50.951451)
+2024-02-23 20:10:23 ::: 	4. 마중 작성완료 (걸린시간 0:02:43.503853)
+2024-02-23 20:12:55 ::: 	5. 마음,심리,심정 작성완료 (걸린시간 0:02:31.298761)
+2024-02-23 20:15:38 ::: 	6. 마음에 들다 작성완료 (걸린시간 0:02:42.856994)
+2024-02-23 20:20:28 ::: 	7. 마약,아편,중독,탐닉 작성완료 (걸린시간 0:04:48.901308)
+2024-02-23 20:28:33 ::: 	8. 마리아 작성완료 (걸린시간 0:08:05.135103)
+2024-02-23 20:33:07 ::: 	9. 리모컨 작성완료 (걸린시간 0:04:33.570350)
+
+2024-02-23 20:45:07 ::: limp in page3 changed!
+2024-02-23 20:45:07 ::: Rule in page12 changed!
+2024-02-23 20:45:07 ::: Public in page27 changed!
+2024-02-23 20:45:07 ::: Defender in page33 changed!
+2024-02-23 20:45:07 ::: shed in page35 changed!
+2024-02-23 20:45:07 ::: Job in page39 changed!
+2024-02-23 20:45:07 ::: Poverty in page44 changed!
+2024-02-23 20:45:07 ::: theory in page46 changed!
+2024-02-23 20:45:07 ::: hot in page57 changed!
+2024-02-23 20:45:07 ::: me in page60 changed!
+2024-02-23 20:45:07 ::: (Shooting gun) in page61 changed!
+2024-02-23 20:45:07 ::: impression in page64 changed!
+2024-02-23 20:45:07 ::: Japanese in page64 changed!
+2024-02-23 20:45:07 ::: victim in page70 changed!
+2024-02-23 20:45:07 ::: please in page77 changed!
+2024-02-23 20:45:07 ::: suddenly in page79 changed!
+2024-02-23 20:45:07 ::: head in page81 changed!
+2024-02-23 20:45:07 ::: shoulder in page85 changed!
+2024-02-23 20:45:07 ::: owner in page87 changed!
+2024-02-23 20:45:07 ::: fly in page88 changed!
+2024-02-23 20:45:07 ::: Defeat in page91 changed!
+2024-02-23 20:45:07 ::: pass in page93 changed!
+2024-02-23 20:45:07 ::: hair in page94 changed!
+2024-02-23 20:45:07 ::: seizure in page95 changed!
+2024-02-23 20:45:07 ::: outside in page97 changed!
+2024-02-23 20:45:07 ::: every in page98 changed!
+2024-02-23 20:45:07 ::: Training in page99 changed!
+2024-02-23 20:45:07 ::: Tear in page100 changed!
+2024-02-23 20:45:07 ::: suddenly in page100 changed!
+2024-02-23 20:45:07 ::: sad in page108 changed!
+2024-02-23 20:45:07 ::: temperature in page111 changed!
+2024-02-23 20:45:07 ::: cold in page112 changed!
+2024-02-23 20:45:07 ::: joke in page112 changed!
+2024-02-23 20:45:07 ::: mask in page113 changed!
+2024-02-23 20:45:07 ::: Great in page116 changed!
+2024-02-23 20:45:07 ::: three in page118 changed!
+2024-02-23 20:45:07 ::: army in page118 changed!
+2024-02-23 20:45:07 ::: artist in page119 changed!
+2024-02-23 20:45:07 ::: answer in page120 changed!
+2024-02-23 20:45:07 ::: Anniversary in page123 changed!
+2024-02-23 20:45:07 ::: (Time) Poetry in page124 changed!
+2024-02-23 20:45:07 ::: divide in page124 changed!
+2024-02-23 20:45:07 ::: poor in page125 changed!
+2024-02-23 20:45:07 ::: Northern in page126 changed!
+2024-02-23 20:45:07 ::: stack in page126 changed!
+2024-02-23 20:45:07 ::: Be in page127 changed!
+2024-02-23 20:45:07 ::: outside in page129 changed!
+2024-02-23 20:45:07 ::: snack in page130 changed!
+2024-02-23 20:45:07 ::: Penalty in page131 changed!
+2024-02-23 20:45:07 ::: Declaration in page133 changed!
+2024-02-23 20:45:07 ::: aunt in page133 changed!
+2024-02-23 20:45:07 ::: pink in page135 changed!
+2024-02-23 20:45:07 ::: dry in page135 changed!
+2024-02-23 20:45:07 ::: young in page137 changed!
+2024-02-23 20:45:07 ::: author in page137 changed!
+2024-02-23 20:45:07 ::: Independence in page137 changed!
+2024-02-23 20:45:07 ::: Queen in page137 changed!
+2024-02-23 20:45:07 ::: pizza in page138 changed!
+2024-02-23 20:45:07 ::: deputy in page140 changed!
+2024-02-23 20:45:07 ::: Highly in page140 changed!
+2024-02-23 20:45:07 ::: Sip in page141 changed!
+2024-02-23 20:45:07 ::: length in page142 changed!
+2024-02-23 20:45:07 ::: go in page144 changed!
+2024-02-23 20:45:07 ::: explanation in page145 changed!
+2024-02-23 20:45:07 ::: tie in page147 changed!
+2024-02-23 20:45:07 ::: take in page147 changed!
+2024-02-23 20:45:07 ::: Toilet in page150 changed!
+2024-02-23 20:45:07 ::: repair in page151 changed!
+2024-02-23 20:45:07 ::: green in page155 changed!
+2024-02-23 20:45:07 ::: subject in page156 changed!
+2024-02-23 20:45:07 ::: income in page156 changed!
+2024-02-23 20:45:07 ::: stop in page157 changed!
+2024-02-23 20:45:07 ::: never in page159 changed!
+2024-02-23 20:45:07 ::: method in page160 changed!
+2024-02-23 20:45:07 ::: join in page160 changed!
+2024-02-23 20:45:07 ::: sister in page161 changed!
+2024-02-23 20:45:07 ::: yes in page161 changed!
+2024-02-23 20:45:07 ::: you in page162 changed!
+2024-02-23 20:45:07 ::: new year in page165 changed!
+2024-02-23 20:45:07 ::: Get in page166 changed!
+2024-02-23 20:45:07 ::: date in page167 changed!
+2024-02-23 20:45:07 ::: Work in page169 changed!
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\(Shooting gun)\seq_1706932086_2898.npy' to 'C:\Users\oem\Desktop\jhy\dataset\(Shooting gun)_in61'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\(Time) Poetry\seq_1707793313_1943.npy' to 'C:\Users\oem\Desktop\jhy\dataset\(Time) Poetry_in124'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Anniversary\seq_1707789509_2474.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Anniversary_in123'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\answer\seq_1707490545_1135.npy' to 'C:\Users\oem\Desktop\jhy\dataset\answer_in120'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\army\seq_1707484311_2860.npy' to 'C:\Users\oem\Desktop\jhy\dataset\army_in118'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\artist\seq_1707486024_2397.npy' to 'C:\Users\oem\Desktop\jhy\dataset\artist_in119'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\aunt\seq_1707825054_3130.npy' to 'C:\Users\oem\Desktop\jhy\dataset\aunt_in133'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\author\seq_1707836490_2286.npy' to 'C:\Users\oem\Desktop\jhy\dataset\author_in137'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Be\seq_1707805961_2888.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Be_in127'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\cold\seq_1707390338_1113.npy' to 'C:\Users\oem\Desktop\jhy\dataset\cold_in112'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\date\seq_1708676228_1134.npy' to 'C:\Users\oem\Desktop\jhy\dataset\date_in167'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Declaration\seq_1707824098_2413.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Declaration_in133'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Defeat\seq_1707214686_1539.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Defeat_in91'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Defender\seq_1706599693_2825.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Defender_in33'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\deputy\seq_1708068787_3868.npy' to 'C:\Users\oem\Desktop\jhy\dataset\deputy_in140'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\divide\seq_1707795134_2527.npy' to 'C:\Users\oem\Desktop\jhy\dataset\divide_in124'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\dry\seq_1707832578_2497.npy' to 'C:\Users\oem\Desktop\jhy\dataset\dry_in135'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\every\seq_1707232900_951.npy' to 'C:\Users\oem\Desktop\jhy\dataset\every_in98'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\explanation\seq_1708084304_2518.npy' to 'C:\Users\oem\Desktop\jhy\dataset\explanation_in145'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\fly\seq_1707205391_2499.npy' to 'C:\Users\oem\Desktop\jhy\dataset\fly_in88'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Get\seq_1708675608_3274.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Get_in166'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\go\seq_1708081911_1416.npy' to 'C:\Users\oem\Desktop\jhy\dataset\go_in144'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Great\seq_1707401547_1860.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Great_in116'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\green\seq_1708265908_2647.npy' to 'C:\Users\oem\Desktop\jhy\dataset\green_in155'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\hair\seq_1707221459_1383.npy' to 'C:\Users\oem\Desktop\jhy\dataset\hair_in94'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\head\seq_1708082731_4293.npy' to 'C:\Users\oem\Desktop\jhy\dataset\head_in81'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Highly\seq_1708070096_3616.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Highly_in140'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\hot\seq_1706711780_2634.npy' to 'C:\Users\oem\Desktop\jhy\dataset\hot_in57'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\impression\seq_1706941639_3042.npy' to 'C:\Users\oem\Desktop\jhy\dataset\impression_in64'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\income\seq_1708405554_2545.npy' to 'C:\Users\oem\Desktop\jhy\dataset\income_in156'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Independence\seq_1707837565_2738.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Independence_in137'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Japanese\seq_1706941971_3132.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Japanese_in64'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Job\seq_1706616937_3124.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Job_in39'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\join\seq_1708417784_1314.npy' to 'C:\Users\oem\Desktop\jhy\dataset\join_in160'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\joke\seq_1707391455_2214.npy' to 'C:\Users\oem\Desktop\jhy\dataset\joke_in112'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\length\seq_1708076548_2069.npy' to 'C:\Users\oem\Desktop\jhy\dataset\length_in142'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\limp\seq_1706411464_1878.npy' to 'C:\Users\oem\Desktop\jhy\dataset\limp_in3'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\mask\seq_1707396206_3128.npy' to 'C:\Users\oem\Desktop\jhy\dataset\mask_in113'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\me\seq_1706929514_2244.npy' to 'C:\Users\oem\Desktop\jhy\dataset\me_in60'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\method\seq_1708416972_3247.npy' to 'C:\Users\oem\Desktop\jhy\dataset\method_in160'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\never\seq_1708414287_2637.npy' to 'C:\Users\oem\Desktop\jhy\dataset\never_in159'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\new year\seq_1708671203_2062.npy' to 'C:\Users\oem\Desktop\jhy\dataset\new year_in165'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Northern\seq_1707800998_3247.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Northern_in126'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\outside\seq_1707813043_1311.npy' to 'C:\Users\oem\Desktop\jhy\dataset\outside_in129'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\owner\seq_1707203648_3101.npy' to 'C:\Users\oem\Desktop\jhy\dataset\owner_in87'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Penalty\seq_1707817574_4337.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Penalty_in131'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\pink\seq_1707831337_4233.npy' to 'C:\Users\oem\Desktop\jhy\dataset\pink_in135'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\pizza\seq_1708061786_65.npy' to 'C:\Users\oem\Desktop\jhy\dataset\pizza_in138'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\please\seq_1707111700_2801.npy' to 'C:\Users\oem\Desktop\jhy\dataset\please_in77'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\poor\seq_1707796579_3093.npy' to 'C:\Users\oem\Desktop\jhy\dataset\poor_in125'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Poverty\seq_1706673650_2045.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Poverty_in44'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Public\seq_1706579472_2492.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Public_in27'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Queen\seq_1707837913_2851.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Queen_in137'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\repair\seq_1708252602_2798.npy' to 'C:\Users\oem\Desktop\jhy\dataset\repair_in151'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Rule\seq_1706451197_3375.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Rule_in12'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\sad\seq_1707381134_1163.npy' to 'C:\Users\oem\Desktop\jhy\dataset\sad_in108'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\seizure\seq_1708094940_2759.npy' to 'C:\Users\oem\Desktop\jhy\dataset\seizure_in95'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\shed\seq_1706604135_1762.npy' to 'C:\Users\oem\Desktop\jhy\dataset\shed_in35'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\shoulder\seq_1707198161_2941.npy' to 'C:\Users\oem\Desktop\jhy\dataset\shoulder_in85'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Sip\seq_1708072825_2648.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Sip_in141'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\sister\seq_1708419596_2881.npy' to 'C:\Users\oem\Desktop\jhy\dataset\sister_in161'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\snack\seq_1707815128_1396.npy' to 'C:\Users\oem\Desktop\jhy\dataset\snack_in130'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\stack\seq_1707802096_3055.npy' to 'C:\Users\oem\Desktop\jhy\dataset\stack_in126'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\stop\seq_1708408565_1268.npy' to 'C:\Users\oem\Desktop\jhy\dataset\stop_in157'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\subject\seq_1708404866_3455.npy' to 'C:\Users\oem\Desktop\jhy\dataset\subject_in156'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\suddenly\seq_1707301183_2985.npy' to 'C:\Users\oem\Desktop\jhy\dataset\suddenly_in100'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Tear\seq_1707300901_2794.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Tear_in100'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\temperature\seq_1707389223_3064.npy' to 'C:\Users\oem\Desktop\jhy\dataset\temperature_in111'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\theory\seq_1706678077_2911.npy' to 'C:\Users\oem\Desktop\jhy\dataset\theory_in46'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\three\seq_1707483414_1105.npy' to 'C:\Users\oem\Desktop\jhy\dataset\three_in118'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\tie\seq_1708089365_2907.npy' to 'C:\Users\oem\Desktop\jhy\dataset\tie_in147'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Toilet\seq_1708242008_1110.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Toilet_in150'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\victim\seq_1706957479_3366.npy' to 'C:\Users\oem\Desktop\jhy\dataset\victim_in70'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Work\seq_1708685207_1116.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Work_in169'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\yes\seq_1708421076_2202.npy' to 'C:\Users\oem\Desktop\jhy\dataset\yes_in161'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\you\seq_1708664187_2016.npy' to 'C:\Users\oem\Desktop\jhy\dataset\you_in162'
+2024-02-23 21:11:47 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\young\seq_1707835584_3122.npy' to 'C:\Users\oem\Desktop\jhy\dataset\young_in137'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\(Shooting gun)\raw_1706932086.npy' to 'C:\Users\oem\Desktop\jhy\dataset\(Shooting gun)_in61'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\(Time) Poetry\raw_1707793313.npy' to 'C:\Users\oem\Desktop\jhy\dataset\(Time) Poetry_in124'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Anniversary\raw_1707789509.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Anniversary_in123'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\answer\raw_1707490545.npy' to 'C:\Users\oem\Desktop\jhy\dataset\answer_in120'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\army\raw_1707484311.npy' to 'C:\Users\oem\Desktop\jhy\dataset\army_in118'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\artist\raw_1707486024.npy' to 'C:\Users\oem\Desktop\jhy\dataset\artist_in119'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\aunt\raw_1707825054.npy' to 'C:\Users\oem\Desktop\jhy\dataset\aunt_in133'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\author\raw_1707836490.npy' to 'C:\Users\oem\Desktop\jhy\dataset\author_in137'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Be\raw_1707805961.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Be_in127'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\cold\raw_1707390338.npy' to 'C:\Users\oem\Desktop\jhy\dataset\cold_in112'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\date\raw_1708676228.npy' to 'C:\Users\oem\Desktop\jhy\dataset\date_in167'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Declaration\raw_1707824098.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Declaration_in133'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Defeat\raw_1707214686.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Defeat_in91'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Defender\raw_1706599693.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Defender_in33'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\deputy\raw_1708068787.npy' to 'C:\Users\oem\Desktop\jhy\dataset\deputy_in140'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\divide\raw_1707795134.npy' to 'C:\Users\oem\Desktop\jhy\dataset\divide_in124'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\dry\raw_1707832578.npy' to 'C:\Users\oem\Desktop\jhy\dataset\dry_in135'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\every\raw_1707232900.npy' to 'C:\Users\oem\Desktop\jhy\dataset\every_in98'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\explanation\raw_1708084304.npy' to 'C:\Users\oem\Desktop\jhy\dataset\explanation_in145'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\fly\raw_1707205391.npy' to 'C:\Users\oem\Desktop\jhy\dataset\fly_in88'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Get\raw_1708675608.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Get_in166'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\go\raw_1708081911.npy' to 'C:\Users\oem\Desktop\jhy\dataset\go_in144'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Great\raw_1707401547.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Great_in116'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\green\raw_1708265908.npy' to 'C:\Users\oem\Desktop\jhy\dataset\green_in155'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\hair\raw_1707221459.npy' to 'C:\Users\oem\Desktop\jhy\dataset\hair_in94'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\head\raw_1708082731.npy' to 'C:\Users\oem\Desktop\jhy\dataset\head_in81'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Highly\raw_1708070096.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Highly_in140'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\hot\raw_1706711780.npy' to 'C:\Users\oem\Desktop\jhy\dataset\hot_in57'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\impression\raw_1706941639.npy' to 'C:\Users\oem\Desktop\jhy\dataset\impression_in64'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\income\raw_1708405554.npy' to 'C:\Users\oem\Desktop\jhy\dataset\income_in156'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Independence\raw_1707837565.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Independence_in137'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Japanese\raw_1706941971.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Japanese_in64'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Job\raw_1706616937.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Job_in39'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\join\raw_1708417784.npy' to 'C:\Users\oem\Desktop\jhy\dataset\join_in160'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\joke\raw_1707391455.npy' to 'C:\Users\oem\Desktop\jhy\dataset\joke_in112'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\length\raw_1708076548.npy' to 'C:\Users\oem\Desktop\jhy\dataset\length_in142'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\limp\raw_1706411464.npy' to 'C:\Users\oem\Desktop\jhy\dataset\limp_in3'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\mask\raw_1707396206.npy' to 'C:\Users\oem\Desktop\jhy\dataset\mask_in113'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\me\raw_1706929514.npy' to 'C:\Users\oem\Desktop\jhy\dataset\me_in60'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\method\raw_1708416972.npy' to 'C:\Users\oem\Desktop\jhy\dataset\method_in160'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\never\raw_1708414287.npy' to 'C:\Users\oem\Desktop\jhy\dataset\never_in159'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\new year\raw_1708671203.npy' to 'C:\Users\oem\Desktop\jhy\dataset\new year_in165'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Northern\raw_1707800998.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Northern_in126'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\outside\raw_1707813043.npy' to 'C:\Users\oem\Desktop\jhy\dataset\outside_in129'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\owner\raw_1707203648.npy' to 'C:\Users\oem\Desktop\jhy\dataset\owner_in87'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Penalty\raw_1707817574.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Penalty_in131'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\pink\raw_1707831337.npy' to 'C:\Users\oem\Desktop\jhy\dataset\pink_in135'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\pizza\raw_1708061786.npy' to 'C:\Users\oem\Desktop\jhy\dataset\pizza_in138'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\please\raw_1707111700.npy' to 'C:\Users\oem\Desktop\jhy\dataset\please_in77'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\poor\raw_1707796579.npy' to 'C:\Users\oem\Desktop\jhy\dataset\poor_in125'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Poverty\raw_1706673650.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Poverty_in44'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Public\raw_1706579472.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Public_in27'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Queen\raw_1707837913.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Queen_in137'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\repair\raw_1708252602.npy' to 'C:\Users\oem\Desktop\jhy\dataset\repair_in151'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Rule\raw_1706451197.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Rule_in12'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\sad\raw_1707381134.npy' to 'C:\Users\oem\Desktop\jhy\dataset\sad_in108'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\seizure\raw_1708094940.npy' to 'C:\Users\oem\Desktop\jhy\dataset\seizure_in95'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\shed\raw_1706604135.npy' to 'C:\Users\oem\Desktop\jhy\dataset\shed_in35'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\shoulder\raw_1707198161.npy' to 'C:\Users\oem\Desktop\jhy\dataset\shoulder_in85'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Sip\raw_1708072825.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Sip_in141'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\sister\raw_1708419596.npy' to 'C:\Users\oem\Desktop\jhy\dataset\sister_in161'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\snack\raw_1707815128.npy' to 'C:\Users\oem\Desktop\jhy\dataset\snack_in130'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\stack\raw_1707802096.npy' to 'C:\Users\oem\Desktop\jhy\dataset\stack_in126'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\stop\raw_1708408565.npy' to 'C:\Users\oem\Desktop\jhy\dataset\stop_in157'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\subject\raw_1708404866.npy' to 'C:\Users\oem\Desktop\jhy\dataset\subject_in156'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\suddenly\raw_1707301183.npy' to 'C:\Users\oem\Desktop\jhy\dataset\suddenly_in100'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Tear\raw_1707300901.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Tear_in100'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\temperature\raw_1707389223.npy' to 'C:\Users\oem\Desktop\jhy\dataset\temperature_in111'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\theory\raw_1706678077.npy' to 'C:\Users\oem\Desktop\jhy\dataset\theory_in46'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\three\raw_1707483414.npy' to 'C:\Users\oem\Desktop\jhy\dataset\three_in118'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\tie\raw_1708089365.npy' to 'C:\Users\oem\Desktop\jhy\dataset\tie_in147'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Toilet\raw_1708242008.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Toilet_in150'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\victim\raw_1706957479.npy' to 'C:\Users\oem\Desktop\jhy\dataset\victim_in70'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\Work\raw_1708685207.npy' to 'C:\Users\oem\Desktop\jhy\dataset\Work_in169'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\yes\raw_1708421076.npy' to 'C:\Users\oem\Desktop\jhy\dataset\yes_in161'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\you\raw_1708664187.npy' to 'C:\Users\oem\Desktop\jhy\dataset\you_in162'
+2024-02-23 21:12:26 ::: Moved 'C:\Users\oem\Desktop\jhy\dataset\young\raw_1707835584.npy' to 'C:\Users\oem\Desktop\jhy\dataset\young_in137'
