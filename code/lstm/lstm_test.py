@@ -4,6 +4,8 @@ import numpy as np
 from tensorflow.keras.models import load_model
 import os
 from collections import Counter
+from sentence_api import make_sentence
+import json
 
 # dataset 폴더 경로 설정
 # dataset_folder = '/content/drive/MyDrive/LAB/Sign_Language_Remaster/code/lstm/dataset'
@@ -11,13 +13,17 @@ from collections import Counter
 # dataset 폴더 아래의 모든 폴더 목록을 얻기
 # actions = ['(Blood) circulation', '(Facility) Bridge', '(Shooting gun)', '(Temperature)', '-jean', '-soup', 'a drawer', 'Acacia flower', 'Accomplice', 'airline', 'alcohol', 'All night', 'Anatomy', 'Anniversary', 'arithmetic', 'army unit', 'Assistant dog', 'attache', 'balance', 'barbershop', 'Be huge', 'Be insignificant', 'Be persistent', 'because', 'bone', 'breakthrough', 'bribe', 'buddhism', 'Bulguksa Temple', 'button', 'Celadon', 'Central office', 'chest', 'chewing gum', 'chicken', 'chinese character', 'church', 'Collection', 'Come across', 'Companion', 'confrontation', 'Construction site', 'copy machine', 'Crack (on the wall)', 'crumple', 'Defender', 'describe', 'Difficulty breathing', 'dog', 'dominance', 'Dressing table', 'Dual -ear', 'during', 'ear', 'earring', 'edit', 'egg plant', 'elder', 'engine', 'entrust', 'execution', 'expense', 'expensive', 'explanation', 'far', 'father', 'Federation', 'feel', 'Final exam', 'fire extinguisher', 'Five days', 'fix', 'Florist', 'flower', 'Football field', 'Gold', 'grasp', 'hair', 'Han River', 'Handling', 'hang', 'Hangul fingerprint', 'Hat (wearing)', 'Hawaii', 'hide', 'high heel', 'Historic sites', 'History', 'hold out', 'Hole', 'hot', 'House price', 'ignorance', 'Immature', 'Indifference', 'Insert', 'Insomnia', 'Installment', 'Irrelevant', 'Kalguksu', 'keep', 'Kim', 'knave', 'Korean Flag', 'law', 'Layer', 'Laziness', 'Lee Byung', 'length', 'let go', 'letter', 'lie', 'like', 'limp', 'long', 'lyrics', 'manicure', 'martyrdom', 'Mate', 'Material', 'meeting', 'Military uniform', 'miracle', 'model student', 'Money', 'Monthly', 'Moving', 'Multi -stage', 'My week', 'National examination', 'National treasure', 'nature', 'Navy', 'necessary', 'necktie', 'ninety', 'oblivion', 'Octopus', 'okay', 'One hundred', 'one room', 'only', 'organization', 'Outstream', 'Panama', 'Pass', 'persimmon', 'Photographer', 'pine nut', 'Pistol', 'Placebo', 'plan', 'Plaza', 'Pope', 'pot', 'Poverty', 'power plant', 'pregnancy', 'printing press', 'professional', 'Protection', 'Public', 'radish', 'rainbow', 'Rape', 'Reader', 'reading glasses', 'real', 'report', 'residence', 'road name', 'Rose of Sharon', 'rugby', 'Rule', 'safe', 'same age', 'sanity', 'school', 'science', 'secret', 'secretary', 'see', 'seizure', 'Seokdu', 'seoul', 'Seventh', 'seventy', 'sexual intercourse', 'Sgt', 'shave', 'shed', 'shelter', 'shoes', 'slaughter', 'Small trial', 'smock', 'Somehow', 'Songbyeolyeon', 'South Sea', 'spin', 'Spontaneous bullet', 'Stickiness', 'Stronger', 'struggle', 'swell', 'Taekwondo', 'Ten days', 'thailand', 'Thin', 'thorn', 'tie', 'To Wipe', 'together', 'tomato', 'train', 'Train station', 'tree', 'Troublesome', 'Turki Example Republic (abbreviated Turkiye)', 'Underneath', 'Unlimited', 'Ventilation', 'victim', 'vietnam', 'Village', 'vinyl', 'Visually impaired', 'walk', 'wayfarer', 'weeping', 'widow', 'wig', 'Writings', 'younger brother']
 import pickle
-with open(r'G:\내 드라이브\LAB\Sign_Language_Remaster\logs\act_list.pkl', 'rb') as file:
+
+with open('G:/내 드라이브/LAB/Sign_Language_Remaster/logs/api_log.json',encoding='utf-8') as json_file:
+    dic = json.load(json_file)
+    dic = dic['Daily']
+with open(r'G:/내 드라이브/LAB/Sign_Language_Remaster/ONTEST/act_list.pkl', 'rb') as file:
     # 리스트 로드
     actions = pickle.load(file)
     print(len(actions),'개의 액션이 저장되어있습니다.')
 seq_length = 30
 
-model = load_model(r"C:\PlayData\lstm_test43_1439act_e20_C8_B512.h5")
+model = load_model(r"C:/PlayData/lstm_test100_9act_e50_C0_B0.h5")
 
 
 # MediaPipe hands model
@@ -35,6 +41,7 @@ data = np.zeros((1, 156))
 action_seq = []
 this_action = '?'
 class_select = []
+word_list = []
 CANT_FIND_HAND_COUNT = 0
 while cap.isOpened():
     ret, img = cap.read()
@@ -87,12 +94,13 @@ while cap.isOpened():
             continue
 
         input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float32), axis=0)
-        y_pred = model.predict(input_data).squeeze()
+        y_pred = model.predict(input_data, verbose=0).squeeze()
         i_pred = int(np.argmax(y_pred))
-        top5_classes = np.argsort(y_pred)[::-1][:5]
-        for i, class_idx in enumerate(top5_classes):
+        top_classes = np.argsort(y_pred)[::-1][:1]
+        for i, class_idx in enumerate(top_classes):
             # print(f"상위 {i+1} 클래스: {class_idx}({actions[class_idx]}), 확률: {y_pred[class_idx]}")
             class_select.append(actions[class_idx])
+    
         conf = y_pred[i_pred]
 
         if conf < 0.8:
@@ -108,15 +116,34 @@ while cap.isOpened():
             this_action = action
         else:
             this_action = '?'
-        cv2.putText(img, f'{this_action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 255, 255), thickness=2)
+        cv2.putText(img, f'{this_action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
     else:
         CANT_FIND_HAND_COUNT+=1
         # 단어 탐색처리
         if class_select and CANT_FIND_HAND_COUNT>10:
-            print(Counter(class_select))
+            counter = Counter(class_select)
+            print(counter)
             action_seq = [] #시퀀스 정리
             class_select=[]
+            print(actions)
+            #####################################################################
+            if counter.most_common(1):
+                most_common_element, count = counter.most_common(1)[0]
+                word_list.append(most_common_element)
+        
+            
+            
+            
+            
+            #####################################################################
+            
     cv2.imshow('img', img)
     if cv2.waitKey(1) == ord('q'):
         cv2.destroyAllWindows()
         break
+    if cv2.waitKey(1) == ord('z'):
+        # cv2.putText(img, f'Request sucess',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 0, 255), thickness=2)
+        print(word_list)
+        ans = make_sentence(word_list[1:])
+        word_list = []
+        print(ans)
