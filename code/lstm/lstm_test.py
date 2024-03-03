@@ -101,7 +101,7 @@ while cap.isOpened():
         for i, class_idx in enumerate(top_classes):
             # print(f"상위 {i+1} 클래스: {class_idx}({actions[class_idx]}), 확률: {y_pred[class_idx]}")
             class_select.append(actions[class_idx])
-    
+        print(11)
         conf = y_pred[i_pred]
 
         if conf < 0.8:
