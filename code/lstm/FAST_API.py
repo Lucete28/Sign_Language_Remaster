@@ -18,11 +18,11 @@ import numpy as np
 
 
 
-# MODELS = []
-# for i in range(25):
-#     print(i)
-#     model = load_model(f'C:/Users/oem/Desktop/jhy/signlanguage/Sign_Language_Remaster/model/2024-02-25_23-26-15/lstm_test103_G{i}_1645act_e20_C2_B0.h5')
-#     MODELS.append(model)
+MODELS = []
+for i in range(25):
+    print(i)
+    model = load_model(f'C:/Users/oem/Desktop/jhy/signlanguage/Sign_Language_Remaster/model/2024-02-25_23-26-15/lstm_test103_G{i}_1645act_e20_C2_B0.h5')
+    MODELS.append(model)
     
 app = FastAPI()
 
@@ -44,9 +44,9 @@ async def receive_array(request: Request):
     array_list = data['array']
 
     # 리스트를 넘파이 배열로 변환
-    array = np.array(array_list, dtype=np.int32)
-
+    array = np.array(array_list, dtype=np.float16)
+    pred = MODELS[0].predict(array, verbose=0).squeeze()
     # 배열 처리 (예: 출력)
-    print(array.shape)
+    # print(array.shape)
 
-    return {"status": "array received", "shape": array.shape, "array": array_list}
+    return {"status": "array received", "shape": array.shape, "array": array_list, "pred" : pred}
