@@ -12,7 +12,7 @@ import pickle
 with open('G:/내 드라이브/LAB/Sign_Language_Remaster/logs/api_log.json',encoding='utf-8') as json_file:
     dic = json.load(json_file)
     dic = dic['Daily']
-with open(r'G:/내 드라이브/LAB/Sign_Language_Remaster/ONTEST/act_list.pkl', 'rb') as file:
+with open(r'G:\내 드라이브\LAB\Sign_Language_Remaster\logs\act_list.pkl', 'rb') as file:
     # 리스트 로드
     actions = pickle.load(file)
     print(len(actions),'개의 액션이 저장되어있습니다.')
@@ -94,19 +94,19 @@ while cap.isOpened():
 
         # POST 요청으로 바이너리 데이터 전송
         response = requests.post(url, json={"array": array_list})
-        y_pred = response.json()['pred']
+        i_pred = response.json()['pred']
         # y_pred = model.predict(input_data, verbose=0).squeeze()
-        i_pred = int(np.argmax(y_pred))
-        top_classes = np.argsort(y_pred)[::-1][:1]
-        for i, class_idx in enumerate(top_classes):
-            # print(f"상위 {i+1} 클래스: {class_idx}({actions[class_idx]}), 확률: {y_pred[class_idx]}")
-            class_select.append(actions[class_idx])
-        print(11)
-        conf = y_pred[i_pred]
+        # i_pred = int(np.argmax(y_pred))
+        # top_classes = np.argsort(y_pred)[::-1][:1]
+        # for i, class_idx in enumerate(top_classes):
+        #     # print(f"상위 {i+1} 클래스: {class_idx}({actions[class_idx]}), 확률: {y_pred[class_idx]}")
+        #     class_select.append(actions[class_idx])
+        # print(11)
+        # conf = y_pred[i_pred]
 
-        if conf < 0.8:
-            continue
-
+        # if conf < 0.8:
+        #     continue
+        print(len(actions),i_pred,type(i_pred))
         action = actions[i_pred]
         action_seq.append(action)
 
@@ -129,6 +129,7 @@ while cap.isOpened():
             print(actions)
             #####################################################################
             if counter.most_common(1):
+
                 most_common_element, count = counter.most_common(1)[0]
                 word_list.append(most_common_element)
         
