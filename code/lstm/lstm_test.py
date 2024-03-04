@@ -12,7 +12,7 @@ import pickle
 with open('G:/내 드라이브/LAB/Sign_Language_Remaster/logs/api_log.json',encoding='utf-8') as json_file:
     dic = json.load(json_file)
     dic = dic['Daily']
-with open(r'G:/내 드라이브/LAB/Sign_Language_Remaster/ONTEST/act_list.pkl', 'rb') as file:
+with open(r'G:\내 드라이브\LAB\Sign_Language_Remaster\logs\act_list.pkl', 'rb') as file:
     # 리스트 로드
     actions = pickle.load(file)
     print(len(actions),'개의 액션이 저장되어있습니다.')
