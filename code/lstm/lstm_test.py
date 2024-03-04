@@ -17,7 +17,7 @@ with open(r'G:\내 드라이브\LAB\Sign_Language_Remaster\logs\act_list.pkl', '
     actions = pickle.load(file)
     print(len(actions),'개의 액션이 저장되어있습니다.')
 seq_length = 30
-
+action = '?'
 # model = load_model(r"C:/PlayData/lstm_test100_9act_e50_C0_B0.h5")
 
 
@@ -93,7 +93,8 @@ while cap.isOpened():
         url = 'http://203.250.133.192:8000/receive'
 
         # POST 요청으로 바이너리 데이터 전송
-        response = requests.post(url, json={"array": array_list})
+        requests.post(url, json={"array": array_list})
+        # response = requests.post(url, json={"array": array_list})
         # y_pred = response.json()['pred']
         # y_pred = model.predict(input_data, verbose=0).squeeze()
         # i_pred = int(np.argmax(y_pred))
@@ -132,12 +133,13 @@ while cap.isOpened():
         #         most_common_element, count = counter.most_common(1)[0]
         #         word_list.append(most_common_element)
             #####################################################################
-        if CANT_FIND_HAND_COUNT>10:
+        if CANT_FIND_HAND_COUNT>10: 
             #confirm 요청
             url = 'http://203.250.133.192:8000/confirm'
-            response = requests.get(url).json()
+            response = requests.get(url).json() ##TODO 과부화 처리
             if response['CODE']:
                 action = actions[response['most_common_pred']]
+                print(action)
                 word_list.append(action)
             else:
                 action = 'NO DATA'
