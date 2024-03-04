@@ -106,13 +106,13 @@ while cap.isOpened():
 
         # if conf < 0.8:
         #     continue
-        print(len(actions),i_pred,type(i_pred))
+        # print(len(actions),i_pred,type(i_pred))
         action = actions[i_pred]
         action_seq.append(action)
 
         if len(action_seq) < 3:
             continue
-
+        print(actionq)
         if action_seq[-1] == action_seq[-2] == action_seq[-3]:
             this_action = action
         else:
