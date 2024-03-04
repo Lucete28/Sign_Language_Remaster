@@ -17,7 +17,7 @@ with open(r'G:\내 드라이브\LAB\Sign_Language_Remaster\logs\act_list.pkl', '
     actions = pickle.load(file)
     print(len(actions),'개의 액션이 저장되어있습니다.')
 seq_length = 30
-
+action = '?'
 # model = load_model(r"C:/PlayData/lstm_test100_9act_e50_C0_B0.h5")
 
 
@@ -90,11 +90,12 @@ while cap.isOpened():
         input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float32), axis=0)
         # api 호출
         array_list = input_data.tolist()
-        url = 'http://203.250.133.192:8000/array'
+        url = 'http://203.250.133.192:8000/receive'
 
         # POST 요청으로 바이너리 데이터 전송
-        response = requests.post(url, json={"array": array_list})
-        i_pred = response.json()['pred']
+        requests.post(url, json={"array": array_list})
+        # response = requests.post(url, json={"array": array_list})
+        # y_pred = response.json()['pred']
         # y_pred = model.predict(input_data, verbose=0).squeeze()
         # i_pred = int(np.argmax(y_pred))
         # top_classes = np.argsort(y_pred)[::-1][:1]
@@ -106,39 +107,45 @@ while cap.isOpened():
 
         # if conf < 0.8:
         #     continue
-        # print(len(actions),i_pred,type(i_pred))
-        action = actions[i_pred]
-        action_seq.append(action)
 
-        if len(action_seq) < 3:
-            continue
-        print(actionq)
-        if action_seq[-1] == action_seq[-2] == action_seq[-3]:
-            this_action = action
-        else:
-            this_action = '?'
-        cv2.putText(img, f'{this_action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
+        # action = actions[i_pred]
+        # action_seq.append(action)
+
+        # if len(action_seq) < 3:
+        #     continue
+
+        # if action_seq[-1] == action_seq[-2] == action_seq[-3]:
+        #     this_action = action
+        # else:
+        #     this_action = '?'
+        # cv2.putText(img, f'{this_action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
     else:
         CANT_FIND_HAND_COUNT+=1
         # 단어 탐색처리
-        if class_select and CANT_FIND_HAND_COUNT>10:
-            counter = Counter(class_select)
-            print(counter)
-            action_seq = [] #시퀀스 정리
-            class_select=[]
-            print(actions)
+        # if class_select and CANT_FIND_HAND_COUNT>10:
+        #     counter = Counter(class_select)
+        #     print(counter)
+        #     action_seq = [] #시퀀스 정리
+        #     class_select=[]
+        #     print(actions)
+        #     #####################################################################
+        #     if counter.most_common(1):
+        #         most_common_element, count = counter.most_common(1)[0]
+        #         word_list.append(most_common_element)
             #####################################################################
-            if counter.most_common(1):
+        if CANT_FIND_HAND_COUNT>10: 
+            #confirm 요청
+            url = 'http://203.250.133.192:8000/confirm'
+            response = requests.get(url).json() ##TODO 과부화 처리
+            if response['CODE']:
+                action = actions[response['most_common_pred']]
+                print(action)
+                word_list.append(action)
+            else:
+                action = 'NO DATA'
+            CANT_FIND_HAND_COUNT = 0
+        cv2.putText(img, f'{action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
 
-                most_common_element, count = counter.most_common(1)[0]
-                word_list.append(most_common_element)
-        
-            
-            
-            
-            
-            #####################################################################
-            
     cv2.imshow('img', img)
     if cv2.waitKey(1) == ord('q'):
         cv2.destroyAllWindows()
