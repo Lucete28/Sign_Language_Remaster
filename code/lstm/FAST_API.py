@@ -26,7 +26,7 @@ for i in range(GROUP_SIZE):
     print(i)
     model = load_model(f'C:/Users/oem/Desktop/jhy/signlanguage/Sign_Language_Remaster/model/2024-02-25_23-26-15/lstm_test103_G{i}_1645act_e20_C2_B0.h5')
     MODELS.append(model)
-    
+print('All model ready')
 app = FastAPI()
 
 
@@ -81,7 +81,7 @@ def confirm():
     for re in re_li:
         
         if re: #리스트 비었을대 처리
-            most_common_num, most_common_count = Counter(re)(1)[0].most_common(1)[0]
+            most_common_num, most_common_count = Counter(re).most_common(1)[0]
             organize_li.append(most_common_num)
     if organize_li:
         final_confrim_li = Counter(organize_li).most_common()
