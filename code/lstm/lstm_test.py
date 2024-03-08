@@ -8,7 +8,13 @@ from sentence_api import make_sentence
 import json
 import requests
 import pickle
+import threading
 
+def send_request(data):
+    array_list = data.tolist()
+    url = 'http://203.250.133.192:8000/receive'
+    requests.post(url, json={"array": array_list})
+    
 with open('G:/내 드라이브/LAB/Sign_Language_Remaster/logs/api_log.json',encoding='utf-8') as json_file:
     dic = json.load(json_file)
     dic = dic['Daily']
@@ -87,62 +93,29 @@ while cap.isOpened():
         if len(data) < seq_length:
             continue
 
-        input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float32), axis=0)
-        # api 호출
-        array_list = input_data.tolist()
-        url = 'http://203.250.133.192:8000/receive'
+        # input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float32), axis=0)
+        # # api 호출
+        # array_list = input_data.tolist()
+        # url = 'http://203.250.133.192:8000/receive'
 
-        # POST 요청으로 바이너리 데이터 전송
-        requests.post(url, json={"array": array_list})
-        # response = requests.post(url, json={"array": array_list})
-        # y_pred = response.json()['pred']
-        # y_pred = model.predict(input_data, verbose=0).squeeze()
-        # i_pred = int(np.argmax(y_pred))
-        # top_classes = np.argsort(y_pred)[::-1][:1]
-        # for i, class_idx in enumerate(top_classes):
-        #     # print(f"상위 {i+1} 클래스: {class_idx}({actions[class_idx]}), 확률: {y_pred[class_idx]}")
-        #     class_select.append(actions[class_idx])
-        # print(11)
-        # conf = y_pred[i_pred]
+        # # POST 요청으로 바이너리 데이터 전송
+        # requests.post(url, json={"array": array_list})
+        input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float16), axis=0)
+        thread = threading.Thread(target=send_request, args=(input_data,))
+        thread.start()
 
-        # if conf < 0.8:
-        #     continue
-
-        # action = actions[i_pred]
-        # action_seq.append(action)
-
-        # if len(action_seq) < 3:
-        #     continue
-
-        # if action_seq[-1] == action_seq[-2] == action_seq[-3]:
-        #     this_action = action
-        # else:
-        #     this_action = '?'
-        # cv2.putText(img, f'{this_action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
     else:
         CANT_FIND_HAND_COUNT+=1
-        # 단어 탐색처리
-        # if class_select and CANT_FIND_HAND_COUNT>10:
-        #     counter = Counter(class_select)
-        #     print(counter)
-        #     action_seq = [] #시퀀스 정리
-        #     class_select=[]
-        #     print(actions)
-        #     #####################################################################
-        #     if counter.most_common(1):
-        #         most_common_element, count = counter.most_common(1)[0]
-        #         word_list.append(most_common_element)
-            #####################################################################
         if CANT_FIND_HAND_COUNT>10: 
             #confirm 요청
             url = 'http://203.250.133.192:8000/confirm'
-            response = requests.get(url).json() ##TODO 과부화 처리
-            if response['CODE']:
-                action = actions[response['most_common_pred']]
-                print(action)
-                word_list.append(action)
-            else:
-                action = 'NO DATA'
+            # response = requests.get(url).json() ##TODO 과부화 처리
+            # if response['CODE']:
+            #     action = actions[response['most_common_pred']]
+            #     print(action)
+            #     word_list.append(action)
+            # else:
+                # action = 'NO DATA'qq
             CANT_FIND_HAND_COUNT = 0
         cv2.putText(img, f'{action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
 
