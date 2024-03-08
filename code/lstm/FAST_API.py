@@ -82,7 +82,7 @@ async def receive_array(request: Request):
                 return {"CODE": False, "status": f'Model {model_index} generated an exception: {exc}'}
             else:
                 re_li[model_index].append(result)
-
+    print(re_li[0])
     return {"status": "array received", "shape": array.shape, "CODE": True, "tmp" : re_li[0]}
 ###############################################################
 
