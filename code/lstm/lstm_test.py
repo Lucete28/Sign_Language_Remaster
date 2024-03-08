@@ -114,19 +114,19 @@ while cap.isOpened():
             response = requests.get(url).json() ##TODO 과부화 처리
             if response['CODE']:
                 is_array_threre = response['is_array_here']
-            #     action = actions[response['most_common_pred']]
-            #     print(action)
-            #     word_list.append(action)
-            # else:
-                # action = 'NO DATA'qq
+                action = actions[response['most_common_pred']]
+                print(action)
+                word_list.append(action)
+            else:
+                action = 'NO DATA'
             CANT_FIND_HAND_COUNT = 0
         cv2.putText(img, f'{action.upper()}',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0, 255, 255), thickness=2)
 
     cv2.imshow('img', img)
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord('q'): # 종료
         cv2.destroyAllWindows()
         break
-    if cv2.waitKey(1) == ord('z'):
+    if cv2.waitKey(1) == ord('z'): # gpt api request
         # cv2.putText(img, f'Request sucess',org=(10, 30), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 0, 255), thickness=2)
         print(word_list)
         ans = make_sentence(word_list[1:])

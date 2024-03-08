@@ -23,7 +23,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 GROUP_SIZE = 25
 MODELS = []
 for i in range(GROUP_SIZE):
-    print(f'{i}/{GROUP_SIZE}')
+    print(f'{i+1}/{GROUP_SIZE}')
     model = load_model(f'C:/Users/oem/Desktop/jhy/signlanguage/Sign_Language_Remaster/model/2024-02-25_23-26-15/lstm_test103_G{i}_1645act_e20_C2_B0.h5')
     MODELS.append(model)
 print('All models ready')
@@ -97,11 +97,12 @@ def confirm():
         if re: #리스트 비었을대 처리
             most_common_num, most_common_count = Counter(re).most_common(1)[0]
             organize_li.append(most_common_num)
+            re.clear()
     if organize_li:
         final_confrim_li = Counter(organize_li).most_common()
 
-        for li in re_li:
-            li.clear()
+        # for li in re_li:
+        #     li.clear()
         return {"status": "Hello World","CODE":True, "pred_count" : final_confrim_li, "most_common_pred" : final_confrim_li[0][0], "most_common_count": final_confrim_li[0][1],"is_array_here":False}
     else:
         return {"status" : "NO DATA", "CODE":False}
