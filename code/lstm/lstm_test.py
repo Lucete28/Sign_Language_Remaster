@@ -43,6 +43,7 @@ action_seq = []
 this_action = '?'
 class_select = []
 word_list = []
+is_array_threre = False
 CANT_FIND_HAND_COUNT = 0
 while cap.isOpened():
     ret, img = cap.read()
@@ -103,14 +104,16 @@ while cap.isOpened():
         input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float16), axis=0)
         thread = threading.Thread(target=send_request, args=(input_data,))
         thread.start()
+        is_array_threre = True
 
     else:
         CANT_FIND_HAND_COUNT+=1
-        if CANT_FIND_HAND_COUNT>10: 
+        if CANT_FIND_HAND_COUNT>10 and not thread.is_alive() and is_array_threre: # 손이 안보인지 10 프레임, 이전 스레드 완료, 서버에 배열 있음 
             #confirm 요청
             url = 'http://203.250.133.192:8000/confirm'
-            # response = requests.get(url).json() ##TODO 과부화 처리
-            # if response['CODE']:
+            response = requests.get(url).json() ##TODO 과부화 처리
+            if response['CODE']:
+                is_array_threre = response['is_array_here']
             #     action = actions[response['most_common_pred']]
             #     print(action)
             #     word_list.append(action)
