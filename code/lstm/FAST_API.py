@@ -102,6 +102,6 @@ def confirm():
 
         for li in re_li:
             li.clear()
-        return {"status": "Hello World","CODE":True, "pred_count" : final_confrim_li, "most_common_pred" : final_confrim_li[0][0], "most_common_count": final_confrim_li[0][1]}
+        return {"status": "Hello World","CODE":True, "pred_count" : final_confrim_li, "most_common_pred" : final_confrim_li[0][0], "most_common_count": final_confrim_li[0][1],"is_array_here":False}
     else:
         return {"status" : "NO DATA", "CODE":False}
