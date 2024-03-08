@@ -1,4 +1,4 @@
-# uvicorn FAST_API:app --reload --host 0.0.0.0
+# cd C:\Users\oem\Desktop\jhy\signlanguage\Sign_Language_Remaster\code\lstm; uvicorn FAST_API:app --reload --host 0.0.0.0
 # .\apienv\Scripts\activate
 import sys
 print("Python version")
@@ -19,14 +19,14 @@ from collections import Counter
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 import time
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 GROUP_SIZE = 25
 MODELS = []
 for i in range(GROUP_SIZE):
-    print(i)
+    print(f'{i}/{GROUP_SIZE}')
     model = load_model(f'C:/Users/oem/Desktop/jhy/signlanguage/Sign_Language_Remaster/model/2024-02-25_23-26-15/lstm_test103_G{i}_1645act_e20_C2_B0.h5')
     MODELS.append(model)
-print('All model ready')
+print('All models ready')
 app = FastAPI()
 
 
@@ -39,40 +39,54 @@ class Item(BaseModel):
 
 
 
-async def predict_model(model, array):
-    start_time = time.time()
-    pred = model.predict(array, verbose=0).squeeze()
-    duration = time.time() - start_time
-    return np.argmax(pred), duration
+# async def predict_model(model, array):
+#     start_time = time.time()
+#     pred = model.predict(array, verbose=0).squeeze()
+#     duration = time.time() - start_time
+#     return np.argmax(pred), duration
 
 re_li =[ [] for _ in range(GROUP_SIZE) ]
 
+# @app.post("/receive")
+# async def receive_array(request: Request):
+#     # 데이터 받아서 변환
+#     data = await request.json()
+#     array_list = data['array']
+#     array = np.array(array_list, dtype=np.float16)
+#     for i, model in enumerate(MODELS):
+#         pred = model.predict(array, verbose=0).squeeze()        
+#         re_li[i].append(int(np.argmax(pred)))
+#         #TODO conf 확인해서 처리 하도록(0.9이상?)
+#     return {"status": "array received", "shape": array.shape, "CODE" : True}
+
+#############################################################
+def model_predict(model, array):
+    pred = model.predict(array, verbose=0).squeeze()
+    return int(np.argmax(pred))
+
 @app.post("/receive")
 async def receive_array(request: Request):
-    # 데이터 받아서 변환
     data = await request.json()
     array_list = data['array']
     array = np.array(array_list, dtype=np.float16)
+    
+    # re_li = [[] for _ in range(GROUP_SIZE)]
 
-    # start_time = time.time()  # 전체 예측 작업 시작 시간 측정
+    with ThreadPoolExecutor() as executor:
+        future_to_model = {executor.submit(model_predict, model, array): i for i, model in enumerate(MODELS)}
+        for future in as_completed(future_to_model):
+            model_index = future_to_model[future]
+            try:
+                result = future.result()
+            except Exception as exc:
+                return {"CODE": False, "status": f'Model {model_index} generated an exception: {exc}'}
+            else:
+                re_li[model_index].append(result)
 
-    # 각 모델에 대한 예측
-    for i, model in enumerate(MODELS):
-        pred = model.predict(array, verbose=0).squeeze()        
-        re_li[i].append(int(np.argmax(pred)))
-        #TODO conf 확인해서 처리 하도록(0.9이상?)
-
-    # total_duration = time.time() - start_time  # 전체 예측 작업 완료 시간 측정
+    return {"status": "array received", "shape": array.shape, "CODE": True, "tmp" : re_li[0]}
+###############################################################
 
 
-    # 가장 많이 예측된 클래스
-    # number_counts = Counter(pred_list)
-    # most_common_num, most_common_count = number_counts.most_common(1)[0]
-    # most_common_num = int(most_common_num)  # 넘파이 int64를 파이썬 int로 변환
-
-    # print(f"Total prediction time: {total_duration:.4f} seconds")  # 전체 예측 시간 출력
-
-    return {"status": "array received", "shape": array.shape, "CODE" : True}
 
 
 @app.get("/confirm")
