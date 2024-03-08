@@ -45,6 +45,7 @@ class_select = []
 word_list = []
 is_array_threre = False
 CANT_FIND_HAND_COUNT = 0
+thread = False
 while cap.isOpened():
     ret, img = cap.read()
     # img0 = img.copy()
