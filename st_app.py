@@ -21,7 +21,7 @@ def find_url_by_en(word, data_dict):
                 return word_value[1]  # URL 반환
     return None
 
-with open('C:/Users/oem/Desktop/jhy/signlanguage/Sign_Language_Remaster/logs/api_log.json','r', encoding='utf-8') as f:
+with open('api_log.json','r', encoding='utf-8') as f:
     j_data = json.load(f)
 st.title('Sign Language')
 st.text('Created to find videos managed in Project')
