@@ -14,7 +14,7 @@ def make_sentence(list):
     completion = openai.ChatCompletion.create(
       model="gpt-3.5-turbo",
       messages=messages
-  )
+    )
 
     chat_response = completion.choices[0].message.content
 #   print(f'ChatGPT: {chat_response}')

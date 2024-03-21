@@ -10,9 +10,9 @@ import requests
 import pickle
 import threading
 
-def send_request(data):
+def post_json_request(end_point,data):
     array_list = data.tolist()
-    url = 'http://203.250.133.192:8000/receive'
+    url = f'http://203.250.133.192:8000/{end_point}'
     requests.post(url, json={"array": array_list})
     
 with open('G:/내 드라이브/LAB/Sign_Language_Remaster/logs/api_log.json',encoding='utf-8') as json_file:
@@ -25,7 +25,8 @@ with open(r'G:\내 드라이브\LAB\Sign_Language_Remaster\logs\act_list.pkl', '
 seq_length = 30
 action = '?'
 # model = load_model(r"C:/PlayData/lstm_test100_9act_e50_C0_B0.h5")
-
+# url = f'http://203.250.133.192:8000/certification'
+# requests.post(url, 'wjdghdus')
 
 # MediaPipe hands model
 mp_hands = mp.solutions.hands
@@ -103,11 +104,13 @@ while cap.isOpened():
 
         # # POST 요청으로 바이너리 데이터 전송
         # requests.post(url, json={"array": array_list})
-        input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float16), axis=0)
-        thread = threading.Thread(target=send_request, args=(input_data,))
-        thread.start()
         thread_count+=1
         print(thread_count)
+        if thread_count %2 == 0:
+            input_data = np.expand_dims(np.array(data[-seq_length:], dtype=np.float16), axis=0)
+            thread = threading.Thread(target=post_json_request, args=('receive',input_data,))
+            thread.start()
+        
         is_array_threre = True
 
     else:
